@@ -1,18 +1,24 @@
 ".container": {
 	backgroundColor: "white",
 	layout: 'vertical',
-	backgroundColor: 'gray',
+
 	width: 250,
-	right: 0
+	right: 0,
+	
 }
 "#scroll":{
 	layout: 'vertical',
 	contentWidth: Ti.UI.FILL,
-	contentHeight: Ti.UI.SIZE
+	contentHeight: Ti.UI.SIZE,
+	backgroundImage : "/images/menu_background.png"
 }
 
 ".button":{
-	height: Ti.UI.SIZE,
+	width : Ti.UI.FILL,
+	height: 51,
 	backgroundColor: 'white',
-	borderColor: 'black'
+	borderColor: 'black',
+	backgroundImage : "/images/item.png",
+	backgroundSelectedImage : "/images/select_item.png"
 }
+
