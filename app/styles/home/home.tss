@@ -2,7 +2,7 @@
 	layout: 'vertical',
 	exitOnClose: true,
 	navBarHidden:true,
-	title: 'الحج والعمرة'
+	
 }
 "#imgBack":{
 	backgroundColor: 'black',
@@ -11,7 +11,7 @@
 	
 }
 "#imgBack[platform=android]":{
-	backgroundColor: 'black',
+	backgroundImage: '/images/background.png',
 	width: '100%',
 	top: 0
 	
@@ -21,15 +21,27 @@
 	top: "0"
 }
 "#titleBar":{
+	backgroundImage: '/images/header.png',
+	width:320,
+		height:37,
 	title:{
-		text: 'الحج والعمرة'
+		text:''
 	},
+
 	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+				backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+
 		visible: true,
-		title: 'ﺍﻟﻘﺎﺋﻤﺔ'
+		width:27,
+		height:19,
+		
+		
 	},
 	leftNavButton:{
 		visible: false
+		
 	}
 }
 
