@@ -1,0 +1,16 @@
+<Alloy>
+	<View class="container">
+		<ScrollView id="scroll">
+			<View class="button" >
+				<Label class="content">أحكام السفر</Label>
+			</View>
+			<View class="button" >
+				<Label class="content">المواقيت والإحرام</Label>
+			</View>
+			<View class="button">
+				<Label class="content">أداب الحاج</Label>
+			</View>
+			
+		</ScrollView>
+	</View>
+</Alloy>

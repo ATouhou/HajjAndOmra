@@ -1,0 +1,50 @@
+"#headerbar":{
+	
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundColor: '#cacaca'
+},
+"#headertitle": {
+	left: "55dp",
+	color: '#000',
+	font: {
+		fontSize: "16dp",
+		fontFamily: Alloy.Globals.customFont
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+"#backbutton":{
+	left: "5dp",
+	width: "48dp",
+	height: "50dp",
+	backgroundColor: "transparent"
+},
+"#backangle":{
+	left: '0',
+	height: "40dp",
+	width: "14dp"
+},
+"#appicon":{
+	left: '15dp',
+	height: "30dp",
+	width: "30dp",
+	backgroundColor:'transparent'
+},
+"#bottomline":{
+	height: "2dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#0082AB",
+	bottom: "0"
+},
+"#actionButtons":{ // this button starts hidden
+	right: "0dp",
+	width: Ti.UI.SIZE,
+	height: "50dp",
+	backgroundColor: "transparent",
+	visible: true,
+	layout: "horizontal"
+},
+"#inflater":{
+	image: "/inflater.png"
+}

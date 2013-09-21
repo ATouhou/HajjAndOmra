@@ -1,0 +1,13 @@
+{
+	"global": {}, 
+	"env:development": {}, 
+	"env:test": {}, 
+	"env:production": {}, 
+	"os:ios": {}, 
+	"os:android": {}, 
+	"dependencies": {
+		"com.alco.headerbar" : "1.0",
+		"com.madrocket.ti.slidemenu" : "0.2.1",
+		"com.hashapps.widgets.titlebar" : "1.0"
+	}
+}

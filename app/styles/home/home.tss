@@ -1,0 +1,35 @@
+"#container": {
+	layout: 'vertical',
+	exitOnClose: true,
+	navBarHidden:true,
+	title: 'الحج والعمرة'
+}
+"#imgBack":{
+	backgroundColor: 'black',
+	width: '100%',
+	top: 0
+	
+}
+"#imgBack[platform=android]":{
+	backgroundColor: 'black',
+	width: '100%',
+	top: 0
+	
+}
+"#grp":{
+	layout: 'vertical',
+	top: "0"
+}
+"#titleBar":{
+	title:{
+		text: 'الحج والعمرة'
+	},
+	rightNavButton:{
+		visible: true,
+		title: 'ﺍﻟﻘﺎﺋﻤﺔ'
+	},
+	leftNavButton:{
+		visible: false
+	}
+}
+

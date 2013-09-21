@@ -1,0 +1,27 @@
+".index": {
+	exitOnClose: true,
+	title:'الحج والعمرة',
+	navBarHidden:true,
+	backgroundImage: 'Default.png'
+}
+".index[platform=ios]": {
+	backgroundImage: 'Default.png',
+	navBarHidden:true,
+}
+".index[platform=android]": {
+	backgroundImage: 'default.png',
+	navBarHidden:true,
+}
+"#inner":{
+	navBarHidden:true,
+	backgroundColor: 'yellow'
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+"Button":{
+	width: '80%',
+	top: 10
+}

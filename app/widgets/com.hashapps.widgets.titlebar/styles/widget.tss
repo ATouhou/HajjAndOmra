@@ -1,0 +1,45 @@
+"#lblTitle": {
+	font: {
+		fontSize: 20,
+		fontFamily: Alloy.Globals.customFont
+	},
+	color:"#007ca6",
+	width: '60%',
+	textAlign: 'center'
+}
+"#background":{
+	backgroundColor: 'green',
+	height: 45,
+	width: Ti.UI.FILL,
+	top:0
+}
+"#imgLogo":{
+	width: 36,
+	height: 36,
+	right: '2.5%'
+}
+"#rightNavButton" :{
+    right: "2%",
+    title: 'next',
+    height: 30,
+    width: "17%",
+    visible: false,
+    font: {
+		fontSize: 12,
+		fontFamily: Alloy.Globals.customFont
+	}
+}
+"#leftNavButton" :{
+    left: '2%',
+    width: "17%",
+    title: 'ﺭﺟﻮﻉ',
+	height: 31,
+    visible: true,
+    font: {
+		fontSize: 12,
+		fontFamily: Alloy.Globals.customFont
+	}
+}
+"#leftNavButton[platform=android]" :{
+	visible: false
+}

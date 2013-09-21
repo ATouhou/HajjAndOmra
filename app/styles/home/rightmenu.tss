@@ -1,0 +1,18 @@
+".container": {
+	backgroundColor: "white",
+	layout: 'vertical',
+	backgroundColor: 'gray',
+	width: 250,
+	right: 0
+}
+"#scroll":{
+	layout: 'vertical',
+	contentWidth: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE
+}
+
+".button":{
+	height: Ti.UI.SIZE,
+	backgroundColor: 'white',
+	borderColor: 'black'
+}

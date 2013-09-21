@@ -1,0 +1,12 @@
+<Alloy>
+	<!-- iPhone -->
+	<Window id="index" platform="ios">
+	    <NavigationGroup id="navgroup">
+	    	<Window id="inner">
+	    		<Require type="widget" src="com.madrocket.ti.slidemenu" id="menu" />
+	    	</Window>
+	    </NavigationGroup>
+   	</Window>
+  
+
+</Alloy>

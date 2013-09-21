@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="row">
+
+		<View id="details_container">
+			<View id="title_container">
+				<Label id='title'></Label>
+			</View>
+			<Label id="details"></Label>
+		</View>
+
+	</View>
+</Alloy>
