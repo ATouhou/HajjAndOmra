@@ -21,11 +21,11 @@
 	top: "0"
 }
 "#titleBar":{
-	backgroundImage: '/images/header.png',
 	width:320,
-		height:37,
+	height:37,
 	title:{
-		text:''
+		text:'مناسك الحج',
+		color:'black'
 	},
 
 	rightNavButton:{
@@ -35,12 +35,12 @@
 		visible: true,
 		width:27,
 		height:19,
-		
-		
 	},
 	leftNavButton:{
 		visible: false
 		
-	}
+	},
+		backgroundColor: 'white',
+
 }
 
