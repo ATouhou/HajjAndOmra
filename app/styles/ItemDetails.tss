@@ -2,7 +2,7 @@
 ".container" : {
   width : Ti.UI.FILL,
   height : Ti.UI.FILL ,
-  backgroundImage : "/image/background.png",
+  backgroundImage : "/images/background.png",
   layout:'vetical'
 },
 
@@ -27,11 +27,11 @@
 },
 
 "ScrollView": {
-	left : 5 ,
-	right : 5 ,
-	top : 5 ,
-	bottom : 5 ,
-	borderRadius : 2 ,
+	left : 10 ,
+	right : 10 ,
+	top : 50 ,
+	bottom : 10 ,
+	borderRadius : 7 ,
 	backgroundColor: "white"
 },
 
@@ -48,5 +48,6 @@
 
 '#details':{
 	height:Ti.UI.SIZE,
-	width:Ti.UI.FILL
+	width:Ti.UI.FILL,
+	text:'fjnvnvf  jdb vdkv jvbdbv hv djv djv'
 }
