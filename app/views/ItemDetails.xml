@@ -1,7 +1,11 @@
 <Alloy>
-	<Window class="container">
+	<Window id='hi' class="container" navBarHidden="true">
+		<Widget src='com.hashapps.widgets.titlebar' id='header' />
 		<ScrollView>
-		<Label></Label>
+			<View id='main'>
+				<ImageView id='image'></ImageView>
+				<Label id='details'></Label>
+			</View>
 		</ScrollView>
 	</Window>
 </Alloy>
