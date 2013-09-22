@@ -6,7 +6,8 @@ exports.definition = {
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "Catagory"
+			collection_name: "Catagory",
+			"db_file": "/db.db3"
 		}
 	},
 	extendModel: function(Model) {
