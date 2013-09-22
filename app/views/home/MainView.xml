@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView>
+		<Label></Label>
+		</ScrollView>
+	</Window>
+</Alloy>

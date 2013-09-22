@@ -2,7 +2,7 @@
 	<View class="container">
 		<ScrollView id="scroll">
 			
-			<Button class="button">أحكام السفر</Button>
+			<Button class="button" onClick="safar">أحكام السفر</Button>
 			<Button class="button">المواقيت والإحرام</Button>
 			<Button class="button">أداب الحاج</Button>
 						
