@@ -2,8 +2,29 @@
 ".container" : {
   width : Ti.UI.FILL,
   height : Ti.UI.FILL ,
-  backgroundImage : "/image/background.png"
-}
+  backgroundImage : "/image/background.png",
+  layout:'vetical'
+},
+
+"#header":{
+	width:320,
+	height:37,
+	title:{
+		font:{
+		 fontSize:20,
+      	 fontFamily: Alloy.Globals.customFont
+		     },
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible: false,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+},
 
 "ScrollView": {
 	left : 5 ,
@@ -11,5 +32,21 @@
 	top : 5 ,
 	bottom : 5 ,
 	borderRadius : 2 ,
-	backgroundColor : "gray"
+	backgroundColor: "white"
+},
+
+'#main':{
+	layout:'vertical',
+	height:Ti.UI.SIZE,
+	width:Ti.UI.FILL
+},
+
+"#image":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.FILL
+},
+
+'#details':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.FILL
 }

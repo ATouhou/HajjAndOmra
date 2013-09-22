@@ -3,9 +3,7 @@
 		<Widget src="com.hashapps.widgets.titlebar" id="titleBar"/>
 		<View>
 			<View id="imgBack" />
-			<View id="grp">
-				
-			</View>
+			<View id="grp"></View>
 			<View id="overlay" onClick="toggleMenu"></View>
 		</View>
 	</View>
