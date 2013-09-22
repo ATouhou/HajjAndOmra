@@ -3,7 +3,7 @@ exports.definition = {
 		columns: {
 		    "name": "text",
 		    "details ": "text",
-		    "category ID": "integer",
+		    "categoryID": "integer",
 		    "image": "string"
 		},
 		adapter: {
