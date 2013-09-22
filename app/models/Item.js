@@ -3,12 +3,13 @@ exports.definition = {
 		columns: {
 		    "name": "text",
 		    "details ": "text",
-		    "categoryID": "integer",
+		    "catagoryID": "integer",
 		    "image": "string"
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "Item"
+			collection_name: "Item",
+			"db_file": "/db.db3"
 		}
 	},
 	extendModel: function(Model) {
