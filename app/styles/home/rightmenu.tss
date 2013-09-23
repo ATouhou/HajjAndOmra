@@ -1,24 +1,25 @@
 ".container": {
-	backgroundColor: "white",
+	backgroundImage :"/images/menu_background.png",
 	layout: 'vertical',
-
 	width: 250,
 	right: 0,
 	
 }
-"#scroll":{
-	layout: 'vertical',
-	contentWidth: Ti.UI.FILL,
-	contentHeight: Ti.UI.SIZE,
-	backgroundImage : "/images/menu_background.png"
+
+'#pic':{
+	image:'/images/header_menu.png'
 }
 
-".button":{
-	width : Ti.UI.FILL,
-	height: 51,
-	backgroundColor: 'white',
-	borderColor: 'black',
-	backgroundImage : "/images/item.png",
-	backgroundSelectedImage : "/images/select_item.png"
+"#menu":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+}
+
+'#item':{
+	textAlign:'right',
+	width:Ti.UI.FILL,
+	height:Ti.UI.SIZE,
+	backgroundImage:'/images/item.png',
+	backgroundSelectedImage:"/images/select_item.png"
 }
 

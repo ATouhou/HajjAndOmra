@@ -1,15 +1,14 @@
-
-
-function hideMenu(){
-	setTimeout(function(){
+function hideMenu() {
+	setTimeout(function() {
 		Alloy.Globals.menu.toggleRightDrawer();
-	}, 300)
-;}
-
-function safar() {
-  Alloy.Globals.menu.closeDrawer();
-  var ctrl = Alloy.createController('home/MainView');
-  ctrl.getView().open();
-  
+	}, 300);
 }
+
+function openItemDetails() {
+	var ctrl = Alloy.createController('ItemDetails');
+	ctrl.getView().open();
+}
+
+var x=Alloy.Collections.Catagory;
+x.fetch();
 

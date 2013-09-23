@@ -1,11 +1,9 @@
 <Alloy>
-	<View class="container">
-		<ScrollView id="scroll">
-			
-			<Button class="button" onClick="safar">أحكام السفر</Button>
-			<Button class="button">المواقيت والإحرام</Button>
-			<Button class="button">أداب الحاج</Button>
-						
-		</ScrollView>
+	<Collection src='Catagory'/>
+	<View class="container" id='win'>
+<ImageView id='pic'></ImageView>
+		<TableView id='menu' dataCollection='Catagory'>
+			<TableViewRow id='item' title="{name}"></TableViewRow>
+		</TableView>
 	</View>
 </Alloy>
