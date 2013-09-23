@@ -35,7 +35,7 @@
 	top : 50 ,
 	bottom : 10 ,
 	borderRadius : 7 ,
-	backgroundColor: "#808080"
+	backgroundColor: "#e6e6e6"
 },
 
 '#main':{
@@ -49,7 +49,7 @@
 	bottom:10,
 	left:10,
 	right:10,
-	height:'30%',
+	height:'10%',
 	width:Ti.UI.FILL,
 	image:'/images/kaaba.jpg'
 },

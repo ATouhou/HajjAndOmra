@@ -2,14 +2,14 @@
 	exitOnClose: true,
 	title:'الحج والعمرة',
 	navBarHidden:true,
-	backgroundImage: 'Default.png'
+	backgroundImage: '/Default.png'
 }
 ".index[platform=ios]": {
 	backgroundImage: 'Default.png',
 	navBarHidden:true,
 }
 ".index[platform=android]": {
-	backgroundImage: 'default.png',
+	backgroundImage: '/default.png',
 	navBarHidden:true,
 }
 "#inner":{

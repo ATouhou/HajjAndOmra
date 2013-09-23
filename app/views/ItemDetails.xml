@@ -4,7 +4,7 @@
 		<ScrollView>
 			<View id='main'>
 				<ImageView id='image'></ImageView>
-				<Label id='details'></Label>
+				<Label id='text' ></Label>
 			</View>
 		</ScrollView>
 	</Window>
