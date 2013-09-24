@@ -7,7 +7,7 @@ exports.definition = {
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "myPlaces"
+			collection_name: "MyPlaces"
 		}
 	},
 	extendModel: function(Model) {
