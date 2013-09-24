@@ -75,6 +75,10 @@ exports.toggleRightDrawer = function(){
 	$.rightDrawer.toggleDrawer(); 
 };
 
+exports.closeDrawer = function(){ 
+  $.rightDrawer.closeDrawer(); 
+};
+
 exports.setContent = function(newContent){
 	for(var i=0,j=$.content.children.length; i<j; i++){
 		$.content.remove($.content.children[i]);
