@@ -4,11 +4,11 @@ function hideMenu() {
 	}, 300);
 }
 
-function openItemDetails() {
-	var ctrl = Alloy.createController('ItemDetails');
-	ctrl.getView().open();
+function openList() {
+	var ctrl = Alloy.createController('List');
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
 }
 
 var x=Alloy.Collections.Catagory;
 x.fetch();
-
