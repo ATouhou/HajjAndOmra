@@ -6,7 +6,7 @@
 			<TableViewRow id='item' title="{name}"></TableViewRow>
 		</TableView>
 		<ImageView id='line'></ImageView>
-		<Button id='map'></Button>
+		<Button id='map' onClick="map"></Button>
 
 	</View>
 </Alloy>

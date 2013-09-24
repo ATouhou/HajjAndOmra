@@ -12,3 +12,6 @@ function openItemDetails() {
 var x=Alloy.Collections.Catagory;
 x.fetch();
 
+function map(){
+	Alloy.createController('markedMap').getView().open();
+}
