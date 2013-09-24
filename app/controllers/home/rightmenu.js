@@ -5,7 +5,7 @@ function hideMenu() {
 }
 
 function openList() {
-	var ctrl = Alloy.createController('List');
+	var ctrl = Alloy.createController('youtubeView');
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
 }
