@@ -12,7 +12,7 @@
 
 "#menu":{
 	width:Ti.UI.FILL,
-	height:Ti.UI.FILL,
+	height:"50%",
 }
 
 '#item':{
@@ -20,6 +20,21 @@
 	width:Ti.UI.FILL,
 	height:Ti.UI.SIZE,
 	backgroundImage:'/images/item.png',
-	backgroundSelectedImage:"/images/select_item.png"
+	backgroundSelectedImage:"/images/select_item.png",
+	color:'gray',
+	selectedColor:'gray'
 }
+'#line':{
+	width:250,
+	height:15,
+	backgroundImage:"/images/break_line.png"
+}
+
+'#map':{
+	width:Ti.UI.FILL,
+	height:50,
+	backgroundImage:'/images/btn_maps_normal.png',
+	backgroundSelectedImage:"/images/btn_maps_pressed.png"
+}
+
 
