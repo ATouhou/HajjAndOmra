@@ -1,9 +1,11 @@
 <Alloy>
 	<Collection src='Catagory'/>
 	<View class="container" id='win'>
-<ImageView id='pic'></ImageView>
+		<ImageView id='pic'></ImageView>
 		<TableView id='menu' onClick="openList" dataCollection='Catagory'>
 			<TableViewRow id='item' title="{name}"></TableViewRow>
 		</TableView>
+		<ImageView id='line'></ImageView>
+		<Button id='map' onClick="map"></Button>
 	</View>
 </Alloy>

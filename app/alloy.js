@@ -9,3 +9,6 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+
+var customFont = 'FrutigerLTArabic-55Roman';
+Alloy.Globals.customFont;
