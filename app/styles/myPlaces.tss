@@ -1,0 +1,47 @@
+
+".container" : {
+ backgroundImage : "/images/background.png",
+  layout : "vertical",
+  navBarHidden: true
+}
+
+"#header":{
+	width:320,
+	height:37,
+	title:{
+		font:{
+		 fontSize:20,
+      	 fontFamily: Alloy.Globals.customFont
+		     }
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible: false,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+}
+
+"#myListPlaces":{
+	 backgroundImage: '/images/menu_background.png',
+	 top : 10,
+	 left : 10,
+	 bottom :20,
+	 right : 10,
+	 borderRadius : 10
+}
+
+".lbl": {
+	color: 'white',
+	font:{
+		 fontSize:20,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right: 40,
+	left: 5,
+	textAlign: 'right'
+}
+

@@ -1,0 +1,18 @@
+<Alloy>
+	<Collection src='MyPlaces'>
+	<View class="container">
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
+			<ListView id='myListPlaces'>
+				<Templates>
+					<ItemTemplate name="temp">
+						<Label bindId='name' id='namex' class='lbl'/>
+						<Label bindId='description' id='descriptionx' class='lbl'/>
+					</ItemTemplate>
+				</Templates>
+			
+			<ListSection dataCollection='MyPlaces'>
+				<ListItem name:text='{name}' template="temp" description:text='{description}'/>	
+			</ListSection>
+		</ListView>
+	</View>
+</Alloy>
