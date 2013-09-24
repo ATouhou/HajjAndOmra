@@ -1,0 +1,18 @@
+<Alloy>
+	<Collection src="Youtube" />
+	<View class="container">
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
+		<ListView id="youtubeListView" >
+			<Templates>
+				<ItemTemplate name="fullItem" class="itmT">
+					<Label bindId="title" id="lblTitle"></Label>
+					<Label bindId="description" id="descLbl"></Label>
+					<ImageView bindId="image" id="imgThumb"></ImageView>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section" dataCollection="Youtube">
+				<ListItem  title:text="{name}" image:image="{thumb}" description:text="{description}" template="fullItem"/>
+			</ListSection>
+		</ListView>
+	</View>
+</Alloy>
