@@ -2,16 +2,16 @@
 	<Collection src="Youtube" />
 	<View class="container">
 		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
-		<ListView id="youtubeListView" >
+		<ListView id="youtubeListView" onItemclick="info">
 			<Templates>
 				<ItemTemplate name="fullItem" class="itmT">
-					<Label bindId="title" id="lblTitle"></Label>
-					<Label bindId="description" id="descLbl"></Label>
-					<ImageView bindId="image" id="imgThumb"></ImageView>
+					<Label bindId="title" id="lblTitle" onItemclick="info"></Label>
+					
+					<ImageView bindId="image" id="imgThumb" onItemclick="info"></ImageView>
 				</ItemTemplate>
 			</Templates>
 			<ListSection id="section" dataCollection="Youtube">
-				<ListItem  title:text="{name}" image:image="{thumb}" description:text="{description}" template="fullItem"/>
+				<ListItem  title:text="{name}" image:image="{thumb}" template="fullItem"/>
 			</ListSection>
 		</ListView>
 	</View>
