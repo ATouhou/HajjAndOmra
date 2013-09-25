@@ -1,0 +1,21 @@
+<Alloy>
+	<Collection src='MyPlaces'>
+	<View class="container">
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
+			<ListView id='myListPlaces' onItemclick='maping'>
+				<Templates>
+					<ItemTemplate name="temp">
+						<View id='vert'>
+						<Label bindId='name' id='namex' class='lbl'/>
+						<Label bindId='description' id='descriptionx' class='lbl'/>
+						</View>
+					</ItemTemplate>
+				</Templates>
+			
+			<ListSection dataCollection='MyPlaces'>
+				<ListItem name:text='{name}' template="temp" 
+					description:text='{description}' />	
+			</ListSection>
+		</ListView>
+	</View>
+</Alloy>

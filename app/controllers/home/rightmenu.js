@@ -15,5 +15,24 @@ var x=Alloy.Collections.Catagory;
 x.fetch();
 
 function map(){
-	Alloy.createController('myPlaces').getView().open();
+	Alloy.createController('markedMap').getView().open();
 }
+
+function test(){
+	var ctrl = Alloy.createController('myPlaces');
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
+}
+
+function test(){
+	var ctrl = Alloy.createController('myPlaces');
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
+}
+
+function test2(){
+	var ctrl = Alloy.createController('places');
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
+}
+

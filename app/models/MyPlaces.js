@@ -2,9 +2,9 @@ exports.definition = {
 	config: {
 		columns: {
 		    "name": "text",
-		    "latitude": "text",
-		    "longitude": "text",
-		    "description": "text"
+		    "description": "text",
+		    "latitude": "real",
+		    "longitude":"real"
 		},
 		adapter: {
 			type: "sql",

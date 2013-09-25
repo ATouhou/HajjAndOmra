@@ -1,6 +1,7 @@
 ".container" : {
 	backgroundColor:'#e6e6e6',
-	layout:'vertical'
+	layout:'vertical',
+	navBarHidden:true
 }
 
 '#border':{
@@ -25,17 +26,18 @@
 	height:37,
 	title:{
 		font:{
-			fontSize:20,
-			fontFamily: Alloy.Globals.customFont,
-		},
-		text:'مناسك الحج' ,
-		color:'black',
+		 fontSize:20,
+		 fontFamily: Alloy.Globals.customFont,
+			 },
+		
+		color:'black'
 	},
+	
 	rightNavButton:{
 		title:'',
 		backgroundImage: '/images/btn_menu_icon_normal.png',
 		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
-		visible: false,
+		//visible:true,
 		width:27,
 		height:19,
 	},

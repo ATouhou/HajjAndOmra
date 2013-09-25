@@ -1,0 +1,67 @@
+
+".container" : {
+ backgroundImage : "/images/menu_background.png",
+  layout : "vertical",
+  navBarHidden:true
+}
+
+"#header":{
+
+	width:Ti.UI.FILL,
+	height:37,
+	title:{
+		font:{
+			fontSize:20,
+			fontFamily: Alloy.Globals.customFont,
+		},
+		text:'اماكن' ,
+		color:'black',
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible:true,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+}
+
+"#myListPlaces":{
+	 backgroundImage: '/images/menu_background.png',
+	 top : 10,
+	 left : 10,
+	 bottom :20,
+	 right : 10,
+	 borderRadius : 10
+}
+
+"#main": {
+	color: 'white',
+	font:{
+		 fontSize:60,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:0,
+	textAlign:'right'
+},
+
+'#sub':{
+	color: 'white',
+	font:{
+		 fontSize:50,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:0,
+	textAlign:'right'
+	
+}
+
+'#vert':{
+	layout:'vertical',
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	right:10
+	
+	}

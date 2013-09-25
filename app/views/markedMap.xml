@@ -4,6 +4,9 @@
 		<View id="mapview" ns="Ti.Map" animate="true" onClick="ok"
 		regionFit="true" userLocation="true"
 		mapType="Ti.Map.STANDARD_TYPE" >
+
+			<Annotation id="hiPort" 
+			pincolor="Titanium.Map.ANNOTATION_RED"/>
 		</View>
 	</Window>
 </Alloy>
