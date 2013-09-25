@@ -4,6 +4,7 @@ function ok() {
 
 var args = arguments[0] || {};
 
+$.header.title.text = args.details.get('name');
 
 $.hiPort.setLatitude(args.details.get('latitude'));
 $.hiPort.setLongitude(args.details.get('longitude'));
