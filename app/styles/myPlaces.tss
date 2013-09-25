@@ -1,24 +1,27 @@
 
 ".container" : {
- backgroundImage : "/images/background.png",
+ backgroundImage : "/images/menu_background.png",
   layout : "vertical",
-  navBarHidden: true
+  navBarHidden:true
 }
 
 "#header":{
-	width:320,
+
+	width:Ti.UI.FILL,
 	height:37,
 	title:{
 		font:{
-		 fontSize:20,
-      	 fontFamily: Alloy.Globals.customFont
-		     }
+			fontSize:20,
+			fontFamily: Alloy.Globals.customFont,
+		},
+		text:'مناسك الحج' ,
+		color:'black',
 	},
 	rightNavButton:{
 		title:'',
 		backgroundImage: '/images/btn_menu_icon_normal.png',
 		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
-		visible: false,
+		visible:true,
 		width:27,
 		height:19,
 	},
@@ -40,8 +43,13 @@
 		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 	},
-	right: 40,
-	left: 5,
-	textAlign: 'right'
+	left:5,
+	textAlign:'right'
 }
 
+'#vert':{
+	layout:'vertical',
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	
+	}
