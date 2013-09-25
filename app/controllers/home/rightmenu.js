@@ -13,6 +13,7 @@ function openList() {
 
 
 
+
 function myPlaces(){
 	var ctrl = Alloy.createController('myPlaces');
 	Alloy.Globals.menu.setContent(ctrl.getView());

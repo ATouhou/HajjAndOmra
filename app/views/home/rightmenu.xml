@@ -18,6 +18,7 @@
 		<Button id='myPlaces' onClick="myPlaces">اماكنى المفضلة</Button>
 		
 		<ImageView id='aboutPro' class='img'></ImageView>
+		
 		<Button id='btnplaces'>عن البرنامج</Button>
 
 		</ScrollView>
