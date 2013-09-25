@@ -37,19 +37,31 @@
 	 borderRadius : 10
 }
 
-".lbl": {
+"#main": {
 	color: 'white',
 	font:{
-		 fontSize:20,
+		 fontSize:40,
       	 fontFamily: Alloy.Globals.customFont
 	},
-	left:5,
+	right:0,
 	textAlign:'right'
+},
+
+'#sub':{
+	color: 'white',
+	font:{
+		 fontSize:30,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:0,
+	textAlign:'right'
+	
 }
 
 '#vert':{
 	layout:'vertical',
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
+	right:10
 	
 	}
