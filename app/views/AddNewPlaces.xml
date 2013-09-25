@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" class='container' navBarHidden="true">
+		<Label id="winTitle"></Label>
+		<TextField id="placeTitle"></TextField>
+		<TextArea id="placeDescription"></TextArea>
+		<View id="mapView" ns="Ti.Map" animate="true"
+		regionFit="true" userLocation="true"
+		mapType="Ti.Map.STANDARD_TYPE" >
+			<ImageView id="getMyloc" onClick="checkGPS"></ImageView>
+		</View>
+		<Button id="save" onClick="savePlace"></Button>
+	</Window>
+</Alloy>

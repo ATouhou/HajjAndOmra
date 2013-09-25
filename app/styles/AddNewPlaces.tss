@@ -1,0 +1,47 @@
+
+".container" : {
+ layout : "vertical",
+ backgroundColor : "white"
+  
+}
+"#winTitle":{
+	text : "Add New Place",
+	color : "black",
+	// width : Ti.UI.FILL,
+	// height : Ti.UI.SIZE
+	font: {
+		fontSize : 20,
+	}
+}
+
+"#placeTitle": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	hintText : "Title",
+	
+}
+"#placeDescription": {
+	width : Ti.UI.FILL,
+	height : 80,
+	hintText : "Description",
+	
+}
+"#mapView": {
+	width : Ti.UI.FILL,
+	height : 260,
+	left : 3,
+	right : 3
+}
+"#getMyloc": {
+	// width : 50,
+	// height : 50,
+	// top : 0,
+	// left : 50,
+	image : "/images/mylocation.png"
+}
+"#save": {
+	title : "save",
+	width : "40%",
+	// height : Ti.UI.SIZE,
+	top : 5
+}

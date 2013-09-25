@@ -31,9 +31,7 @@ loader.onload = function(e) {
 			// do what you want with the data
 				
 		}
-		// for (var i = 1; i < 11; i++) {
-// 			
-			// };
+		
 			mdl = Alloy.createModel('Youtube', {
 					name : title,
 					description : videoId,
