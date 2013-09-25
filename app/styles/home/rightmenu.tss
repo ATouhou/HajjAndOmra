@@ -3,7 +3,6 @@
 	layout: 'vertical',
 	width: 250,
 	right: 0,
-	
 }
 
 "#header":{
@@ -14,7 +13,8 @@
 		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 		  },
-		     text:'مناسك الحج'
+		     text:'مناسك الحج',
+		     color:'black'
 	},
 	rightNavButton:{
 		title:'',
@@ -27,47 +27,21 @@
 	backgroundColor:'white'
 }
 
-'#pic':{
-	backgroundImage:'/images/header_menu.png',
-	width:Ti.UI.FILL,
-	height:Ti.UI.SIZE
+'#move':{
+	top : 0,
+	left : 0,
+	width : Ti.UI.FILL,
+	height : Ti.UI.FILL,
+	contentWidth : 'auto',
+	contentHeight : 'auto',
+	showVerticalScrollIndicator : true,
+	layout : 'vertical'
 }
 
-"#menu":{
-	width:Ti.UI.FILL,
-	height:"50%",
-}
-
-'#item':{
-	textAlign:'right',
-	width:Ti.UI.FILL,
-	height:Ti.UI.SIZE,
-	backgroundImage:'/images/item.png',
-	backgroundSelectedImage:"/images/select_item.png",
-	color:'gray',
-	selectedColor:'gray'
-}
-'#line':{
-	width:250,
-	height:15,
-	backgroundImage:"/images/break_line.png"
-}
-
-'#map':{
-	width:Ti.UI.FILL,
-	height:50,
-	backgroundImage:'/images/btn_maps_normal.png',
-	backgroundSelectedImage:"/images/btn_maps_pressed.png"
-}
-
-'#test':{
+'.img':{
 	height:30,
-	width:50
+	width:Ti.UI.FILL
 }
 
-'#test2':{
-	height:30,
-	width:50
-}
 
 

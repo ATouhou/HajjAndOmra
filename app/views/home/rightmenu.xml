@@ -1,14 +1,25 @@
 <Alloy>
-	<Collection src='Catagory'/>
-	<View class="container" id='win' navBarHidden='true'>
-		<ImageView id='pic'></ImageView>
-		<TableView id='menu' onClick="openList" dataCollection='Catagory'>
-			<TableViewRow id='item' title="{name}"></TableViewRow>
-		</TableView>
-		<ImageView id='line'></ImageView>
-		<Button id='map' onClick="map"></Button>
+	
+	<View class="container" id='win'>
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
 		
-		<Button id='test' onClick='test'></Button>
-		<Button id='test2' onClick="test2">test places</Button>
+		<ScrollView id='move'>
+		<ImageView id='haj' class='img'></ImageView>
+		<Button id='manaskh'>مناسك الحج</Button>
+		<Button id='videos'>فيديو الحج</Button>
+		
+		<ImageView id='omra' class='img'></ImageView>
+		<Button id='manasko'>مناسك العمرة</Button>
+		<Button id='videos'>فيديو العمرة</Button>
+
+		<ImageView id='places' class='img'></ImageView>
+		<Button id='places' onClick="places">الاماكن</Button>
+		
+		<Button id='myPlaces' onClick="myPlaces">اماكنى المفضلة</Button>
+		
+		<ImageView id='aboutPro' class='img'></ImageView>
+		<Button id='btnplaces'>عن البرنامج</Button>
+
+		</ScrollView>
 	</View>
 </Alloy>

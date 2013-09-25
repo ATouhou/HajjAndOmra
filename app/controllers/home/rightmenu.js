@@ -13,17 +13,13 @@ function openList() {
 
 
 
-
-
-
-
-function test(){
+function myPlaces(){
 	var ctrl = Alloy.createController('myPlaces');
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
 }
 
-function test2(){
+function places(){
 	var ctrl = Alloy.createController('places');
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
