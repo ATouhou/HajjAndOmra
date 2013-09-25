@@ -10,18 +10,11 @@ function openList() {
 	Alloy.Globals.menu.closeDrawer();
 }
 
-var x=Alloy.Collections.Catagory;
-x.fetch();
 
-function map(){
-	Alloy.createController('markedMap').getView().open();
-}
 
-function test(){
-	var ctrl = Alloy.createController('myPlaces');
-	Alloy.Globals.menu.setContent(ctrl.getView());
-	Alloy.Globals.menu.closeDrawer();
-}
+
+
+
 
 function test(){
 	var ctrl = Alloy.createController('myPlaces');
