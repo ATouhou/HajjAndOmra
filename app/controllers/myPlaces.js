@@ -22,3 +22,13 @@ function maping(e){
 $.header.rightNavButton.addEventListener('click', function(){
 	Alloy.Globals.menu.toggleRightDrawer();
 });
+
+Ti.App.addEventListener('app:update', function(argument) {
+	data.fetch();
+});
+
+
+function openAddNew() {
+  var ctrl = Alloy.createController('AddNewPlaces');
+  ctrl.getView().open();
+}

@@ -4,7 +4,10 @@
   layout : "vertical",
   navBarHidden:true
 }
-
+"#headView": {
+	width:Ti.UI.FILL,
+	height : Ti.UI.SIZE
+}
 "#header":{
 
 	width:Ti.UI.FILL,
@@ -27,7 +30,15 @@
 	},
 	backgroundColor:'white'
 }
-
+"#newPlace": {
+	left : 10,
+	color : "black",
+	font: {
+		fontSize:20,
+		fontFamily: Alloy.Globals.customFont,
+	},
+	
+}
 "#myListPlaces":{
 	 backgroundImage: '/images/menu_background.png',
 	 top : 10,
