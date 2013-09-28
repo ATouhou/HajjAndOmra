@@ -3,7 +3,7 @@
 		<Widget src='com.hashapps.widgets.titlebar' id='header' />
 		<ScrollView>
 			<View id='main'>
-				<ImageView id='image'></ImageView>
+				<ImageView id='image' onClick="show"></ImageView>
 				<Label id='text' ></Label>
 			</View>
 		</ScrollView>

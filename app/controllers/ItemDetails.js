@@ -11,10 +11,10 @@ function show(){
 	var video=args.get('video');
 	
 	if(video){
-		var x=Alloy.createController('browsar',{video:video}).getView();
+		var x=Alloy.createController('browser',{video:video}).getView();
 		x.open();
 	}else{
-		var x=Alloy.createController('browsar',{image:image}).getView();
+		var x=Alloy.createController('browser',{image:image}).getView();
 		x.open();
 		
 	}

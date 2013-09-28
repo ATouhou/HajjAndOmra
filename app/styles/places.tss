@@ -40,7 +40,7 @@
 "#main": {
 	color: 'white',
 	font:{
-		 fontSize:60,
+		 fontSize:40,
       	 fontFamily: Alloy.Globals.customFont
 	},
 	right:0,
@@ -50,7 +50,7 @@
 '#sub':{
 	color: 'white',
 	font:{
-		 fontSize:50,
+		 fontSize:30,
       	 fontFamily: Alloy.Globals.customFont
 	},
 	right:0,
