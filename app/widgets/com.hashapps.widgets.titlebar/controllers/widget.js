@@ -13,6 +13,7 @@ function doClick(e) {
 
 exports.leftNavButton = $.leftNavButton;
 exports.rightNavButton = $.rightNavButton;
+exports.title = $.lblTitle;
 
 exports.init = function(win){
 	$.lblTitle.text = win.title;
