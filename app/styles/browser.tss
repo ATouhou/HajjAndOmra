@@ -1,0 +1,37 @@
+
+".container" : {
+	layout:'vertical'
+}
+
+"#header":{
+
+	width:Ti.UI.FILL,
+	height:37,
+	title:{
+		font:{
+			fontSize:20,
+			fontFamily: Alloy.Globals.customFont,
+		},
+		text:'عرض الميديا' ,
+		color:'black',
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible:false,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+}
+
+
+'#show':{
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL,
+	right:5,
+	left:5,
+	bottom:5,
+	top:5
+}

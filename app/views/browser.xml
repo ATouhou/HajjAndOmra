@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
+		<WebView id='show'></WebView>
+	</Window>
+</Alloy>
