@@ -1,4 +1,4 @@
-var catagoriess = [
+var catagories = [
 	{type: '1', name:'مناسك الحج', image:'/images/default.png'},
 	{type: '1', name:'مناسك العمرة', image:'/images/btn_maps_normal.png'},
 	{type: '1', name:'المناسك المشتركة', image:'/images/btn_maps_pressed.png'},
