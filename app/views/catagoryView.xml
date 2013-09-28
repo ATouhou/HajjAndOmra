@@ -3,14 +3,14 @@
 	<ListView>
 		<Templates>
 			
-			<ItemTemplate>
+			<ItemTemplate name="catagoryName">
 				<Label bindId='title'></Label>
 				<ImageView bindId='image'></ImageView>
 			</ItemTemplate>
 			
 			</Templates>
 			<ListSection dataCollection='Catagory'>
-				<ListItem title:text="name" image:image="image"></ListItem>
+				<ListItem title:text="name" image:image="image" template="catagoryName"></ListItem>
 			</ListSection>
 	</ListView>
 </Alloy>
