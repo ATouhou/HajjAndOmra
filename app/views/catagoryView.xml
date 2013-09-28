@@ -1,0 +1,16 @@
+<Alloy>
+	<Collection src="Catagory">
+	<ListView>
+		<Templates>
+			
+			<ItemTemplate>
+				<Label bindId='title'></Label>
+				<ImageView bindId='image'></ImageView>
+			</ItemTemplate>
+			
+			</Templates>
+			<ListSection dataCollection='Catagory'>
+				<ListItem title:text="name" image:image="image"></ListItem>
+			</ListSection>
+	</ListView>
+</Alloy>

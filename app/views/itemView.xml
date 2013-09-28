@@ -1,0 +1,15 @@
+<Alloy>
+	<Collection src="Item">
+	<ListView>
+		<Templates>
+			
+			<ItemTemplate>
+				<Label bindId='title'></Label>
+			</ItemTemplate>
+			
+			</Templates>
+			<ListSection dataCollection='Catagory'>
+				<ListItem title:text="name"></ListItem>
+			</ListSection>
+	</ListView>
+</Alloy>
