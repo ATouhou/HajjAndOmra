@@ -12,18 +12,21 @@ var catagoriess = [
 	{type: '3', name:'المناسك المشتركة', image:'/images/btn_maps_pressed.png'},
 ];
 
-mirgration.up=function (migrator){
-	migrator.createTable('catagory',{
+mirgration.up=function (migrator)
+	{
+	migrator.createTable({
+	'columns':{
 	'type':' number',
 	'name':'string',
 	'image':'string'
-	})
+	}
+	});
 
 for(var i=0;i<catagory.length;i++){
-	migrator.insertRow(catagories[i])
+	migrator.insertRow(catagories[i]);
 }
-}
+};
 
 migration.down=function(){
 	migrator.dropTable();
-}
+};
