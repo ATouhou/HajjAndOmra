@@ -2,7 +2,8 @@ exports.definition = {
 	config: {
 		columns: {
 		    "name": "text",
-		    "image": "string"
+		    "image": "string",
+		    "type":"string"
 		},
 		adapter: {
 			type: "sql",

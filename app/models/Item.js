@@ -4,7 +4,8 @@ exports.definition = {
 		    "name": "text",
 		    "details ": "text",
 		    "catagoryID": "integer",
-		    "image": "string"
+		    "image": "string",
+		    "video" :"string"
 		},
 		adapter: {
 			type: "sql",
