@@ -4,6 +4,8 @@ function go() {
 		address : text
 	}).getView();
 	brws.open();
-	
-	
 }
+
+$.header.rightNavButton.addEventListener('click', function() {
+	Alloy.Globals.menu.toggleRightDrawer();
+}); 
