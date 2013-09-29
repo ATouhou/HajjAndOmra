@@ -4,4 +4,6 @@ function go() {
 		address : text
 	}).getView();
 	brws.open();
+	
+	
 }
