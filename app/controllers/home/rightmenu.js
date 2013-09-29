@@ -11,18 +11,31 @@ function openList() {
 	Alloy.Globals.menu.closeDrawer();
 }
 
-
-
-
-function myPlaces(){
+function myPlaces() {
 	var ctrl = Alloy.createController('myPlaces');
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
 }
 
-function places(){
+function places() {
 	var ctrl = Alloy.createController('places');
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
 }
 
+
+
+function openHaj(e) {
+	var ctrl = Alloy.createController("catagoryView", {
+		type : 1
+	});
+	ctrl.getView.open();
+}
+
+
+function openOmra(e) {
+	var ctrl = Alloy.createController("catagoryView", {
+		type : 2
+	});
+	ctrl.getView.open();
+}
