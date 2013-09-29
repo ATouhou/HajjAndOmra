@@ -17,26 +17,33 @@
 "#placeTitle": {
 	width : Ti.UI.FILL,
 	height : Ti.UI.SIZE,
-	hintText : "Title",
+	hintText : "العنوان",
+	left: '3%',
+	right: '3%',
+	top: '1%'
 	
 }
 "#placeDescription": {
 	width : Ti.UI.FILL,
 	height : 80,
-	hintText : "Description",
+	hintText : "الوصف",
+	left: '3%',
+	right: '3%',
+	top: '1%'
 	
 }
 "#mapView": {
 	width : Ti.UI.FILL,
 	height : 260,
-	left : 3,
-	right : 3
+	left: '3%',
+	right: '3%',
+	top: '1%'
 }
 "#getMyloc": {
 	// width : 50,
 	// height : 50,
-	// top : 0,
-	// left : 50,
+	top : 5,
+	left : 5,
 	image : "/images/mylocation.png"
 }
 "#save": {
