@@ -10,7 +10,8 @@ exports.definition = {
 		adapter: {
 			type: "sql",
 			collection_name: "Item",
-			"db_file": "/db.db3"
+			//"db_file": "/db.db3",
+			idAttribute: 'id'
 		}
 	},
 	extendModel: function(Model) {
