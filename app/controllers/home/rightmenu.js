@@ -41,3 +41,10 @@ function openOmra(e) {
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
 }
+
+function about() {
+	var opn = Alloy.createController('aboutApp');
+	Alloy.Globals.menu.setContent(opn.getView());
+	Alloy.Globals.menu.closeDrawer();
+}
+
