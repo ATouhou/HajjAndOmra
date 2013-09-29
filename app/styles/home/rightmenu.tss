@@ -1,49 +1,94 @@
 ".container": {
-	backgroundImage :"/images/menu_background.png",
 	layout: 'vertical',
 	width: 250,
 	right: 0,
+	backgroundImage : '/images/menu_background.png'
 }
 
-"#header":{
-	width:320,
-	height:37,
-	title:{
-		font:{
-		 fontSize:20,
-      	 fontFamily: Alloy.Globals.customFont
-		  },
-		     text:'مناسك الحج',
-		     color:'black'
-	},
-	rightNavButton:{
-		title:'',
-		backgroundImage: '/images/btn_menu_icon_normal.png',
-		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
-		visible:true,
-		width:27,
-		height:19,
-	},
-	backgroundColor:'white'
-}
-
-
-
-'#move':{
-	top : 0,
-	left : 0,
+".img": {
 	width : Ti.UI.FILL,
-	height : Ti.UI.FILL,
-	contentWidth : 'auto',
-	contentHeight : 'auto',
-	showVerticalScrollIndicator : true,
-	layout : 'vertical'
+	height : "63dp",
+	backgroundImage : '/images/item.png',
+	backgroundSelectedImage : '/images/select_item.png',
+	right : 0
+}
+".greenLine": {
+	backgroundImage : '/images/line_break.png',
+	width : Ti.UI.FILL,
+	height :"7dp"
+}
+".title":{
+	right : 55,
+	color : "white",
+		font:{
+		 fontSize:22,
+      	 fontFamily: Alloy.Globals.customFont
+		     }
+	}
+
+"#hajHead": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	image : '/images/header_hajj.png',
+	backgroundColor: 'black',
+	
 }
 
-'.img':{
-	height:30,
-	width:Ti.UI.FILL
+"#mnaskJ": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
 }
 
+"#videos":{
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+}
 
+"#omraHead": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	image : '/images/header_omra.png',
+	backgroundColor: 'black',
+	
+}
 
+"#mnaskO": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+}
+
+"#videosO":{
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+}
+
+"#maps": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	image : '/images/header_maps.png',
+	backgroundColor: 'black',
+	
+}
+
+"#places": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+}
+
+"#FvPlaces":{
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+}
+"#azkar": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	image : '/images/header_azkar.png',
+	backgroundColor: 'black',
+	}
+	
+"#about": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	image : '/images/header_about.png',
+	backgroundColor: 'black',
+	}

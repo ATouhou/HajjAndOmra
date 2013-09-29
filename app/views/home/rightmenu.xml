@@ -1,26 +1,48 @@
 <Alloy>
-	
-	<View class="container" id='win'>
-		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
-		
-		<ScrollView id='move'>
-		<ImageView id='haj' class='img'></ImageView>
-		<Button id='manaskh' onClick="openHaj">مناسك الحج</Button>
-		<Button id='videos'>فيديو الحج</Button>
-		
-		<ImageView id='omra' class='img'></ImageView>
-		<Button id='manasko' onClick="openOmra">مناسك العمرة</Button>
-		<Button id='videos'>فيديو العمرة</Button>
 
-		<ImageView id='places' class='img'></ImageView>
-		<Button id='places' onClick="places">الاماكن</Button>
+	<ScrollView class="container" id='win'>
 		
-		<Button id='myPlaces' onClick="myPlaces">اماكنى المفضلة</Button>
+		<ImageView id="hajHead"></ImageView>
 		
-		<ImageView id='aboutPro' class='img'></ImageView>
+		<View id="mnaskJ" onClick="openHaj">
+			<ImageView id="mnaskHaj" class="img"></ImageView>
+			<Label id="mnaskHajLbl" text="مناسك" class="title"></Label>
+		</View>
+		<View id="videos">
+			<ImageView id="videoHaj" class="img"></ImageView>
+			<Label id="videoHajLbl" text="فيديوهات" class="title"></Label>
+		</View>
 		
-		<Button id='about' onClick="about">عن البرنامج</Button>
+		
+		<ImageView class="greenLine"></ImageView>
+		<ImageView id="omraHead"></ImageView>
+		
+		<View id="mnaskO" onClick="openOmra">
+			<ImageView id="mnaskOmra" class="img"></ImageView>
+			<Label id="mnaskOmraLbl" text="مناسك" class="title"></Label>
+		</View>
+		<View id="videosO">
+			<ImageView id="videoOmra" class="img"></ImageView>
+			<Label id="videoOmraLbl" text="فيديوهات" class="title"></Label>
+		</View>
+		
+		
+		<ImageView class="greenLine"></ImageView>
+		<ImageView id="maps"></ImageView>
+		
+		<View id="places" onClick="places">
+			<ImageView id="placesImage" class="img"></ImageView>
+			<Label id="placesLabl" text="اماكن هامة" class="title"></Label>
+		</View>
+		
+		<View id="FvPlaces" onClick="myPlaces">
+			<ImageView id="FvPlacesImage" class="img"></ImageView>
+			<Label id="FvPlacesLabl" text="اماكنى المفضلة" class="title"></Label>
+		</View>
+		
+		<ImageView id="azkar"></ImageView>
+		
+		<ImageView id="about" onClick="about"></ImageView>
+	</ScrollView>
 
-		</ScrollView>
-	</View>
 </Alloy>
