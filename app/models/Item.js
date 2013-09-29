@@ -9,8 +9,8 @@ exports.definition = {
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "Item",
-			//"db_file": "/db.db3",
+			collection_name: "item",
+			"db_file": "/db.db3",
 			idAttribute: 'id'
 		}
 	},

@@ -8,8 +8,8 @@ exports.definition = {
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "Youtube",
-			//"db_file": "/db.db3",
+			collection_name: "youtube",
+			"db_file": "/db.db3",
 			idAttribute: 'id'
 		}
 	},
