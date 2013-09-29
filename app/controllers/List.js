@@ -3,4 +3,4 @@ $.header.rightNavButton.addEventListener('click', function(){
 });
 
 
-Alloy.Collections.Item.fetch();
+Alloy.Collections.item.fetch();

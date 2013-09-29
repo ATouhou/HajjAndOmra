@@ -1,5 +1,5 @@
 <Alloy>
-	<Collection src="Item">
+	<Collection src="item">
 	<ListView>
 		<Templates>
 			
@@ -9,7 +9,7 @@
 			</ItemTemplate>
 			
 			</Templates>
-			<ListSection dataCollection='Catagory'>
+			<ListSection dataCollection='catagory'>
 				<ListItem name:text="name" details:text='details' template="itemName"></ListItem>
 			</ListSection>
 	</ListView>

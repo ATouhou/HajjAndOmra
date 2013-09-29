@@ -1,5 +1,5 @@
 <Alloy>
-	<Collection src="Item" />
+	<Collection src="item" />
 	<View class="container">
 		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
 		<ListView id="list" >
@@ -9,7 +9,7 @@
 					<ImageView bindId="image" id="imgThumb"></ImageView>
 				</ItemTemplate>
 			</Templates>
-			<ListSection id="section" dataCollection="Item">
+			<ListSection id="section" dataCollection="item">
 				<ListItem title:text="{name}" image:image="{image}" template="fullItem"/>
 			</ListSection>
 		</ListView>
