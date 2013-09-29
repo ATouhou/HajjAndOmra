@@ -1,7 +1,21 @@
 
 ".container" : {
 	layout:'vertical',
-	backgroundColor:'white'
+},
+
+"#imgBack":{
+	backgroundImage: '/images/background.png',
+	width: '100%',
+	top: 0
+}
+
+'#sub':{
+	top: 5,
+	left: 5,
+	right: 5,
+	bottom: 5,
+	borderRadius: 5,
+	backgroundColor: '#dd000000'
 }
 
 "#header":{
@@ -29,16 +43,16 @@
 
 '#icon':{
 	top:50,
-	height:150,
-	width:150,
-	backgroundColor:'red'
+	height:98,
+	width:98,
+	image:'/images/view_icon.png'
 }
 
 '#appName':{
 	top:10,
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
-	color:'black',
+	color:'white',
 	font:{
 		fontSize:20,
 		fontWeight:'bold',
@@ -48,7 +62,7 @@
 '#ver':{
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
-	color:'black',
+	color:'white',
 
 }
 
@@ -56,7 +70,7 @@
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
 	text:'http://www.hashapps.com',
-	color:'black',
+	color:'white',
 
 }
 
@@ -67,25 +81,26 @@
 	top:40
 }
 
-'#icon1':{
-	height:20,
-	width:20,
-	backgroundColor:"green",
+'#face':{
+	height:34,
+	width:34,
+	backgroundImage:"/images/btn_facebook_normal.png",
+	backgroundSelectedImage:'/images/btn_facebook_pressed.png',
 	left:10
 }
 
-'#icon2':{
-	height:20,
-	width:20,
-	backgroundColor:"green",
+'#web1':{
+	height:34,
+	width:34,
+	backgroundImage:"/images/btn_web_normal.png",
+	backgroundSelectedImage:'/images/btn_web_pressed.png',
 	left:10
-
-
 }
 
-'#icon3':{
-	height:20,
-	width:20,
-	backgroundColor:"green",
+'#twitter':{
+	height:34,
+	width:34,
+	backgroundImage:"/images/btn_twitter_normal.png",
+	backgroundSelectedImage:'/images/btn_twitter_pressed.png',
 	left:10
 }
