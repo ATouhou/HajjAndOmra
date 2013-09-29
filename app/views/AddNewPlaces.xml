@@ -4,8 +4,8 @@
 		<TextField id="placeTitle"></TextField>
 		<TextArea id="placeDescription"></TextArea>
 		<View id="mapView" ns="Ti.Map" animate="true"
-		regionFit="true" userLocation="true"
-		mapType="Ti.Map.STANDARD_TYPE" >
+		regionFit="true" 
+		mapType="Ti.Map.STANDARD_TYPE" onClick="mapClicked">
 			<ImageView id="getMyloc" onClick="checkGPS"></ImageView>
 		</View>
 		<Button id="save" onClick="savePlace"></Button>

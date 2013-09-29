@@ -5,11 +5,11 @@
 		
 		<ScrollView id='move'>
 		<ImageView id='haj' class='img'></ImageView>
-		<Button id='manaskh'>مناسك الحج</Button>
+		<Button id='manaskh' onClick="openHaj">مناسك الحج</Button>
 		<Button id='videos'>فيديو الحج</Button>
 		
 		<ImageView id='omra' class='img'></ImageView>
-		<Button id='manasko'>مناسك العمرة</Button>
+		<Button id='manasko' onClick="openOmra">مناسك العمرة</Button>
 		<Button id='videos'>فيديو العمرة</Button>
 
 		<ImageView id='places' class='img'></ImageView>

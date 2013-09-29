@@ -1,15 +1,17 @@
+var currentPlace;
+var mekka = {
+	latitude: "21.416677",
+	longitude: "39.816663",
+	animate: true,
+	regionFit: true,
+	latitudeDelta: 1,
+	longitudeDelta: 2
+};
+
 function checkGPS(argument) {
-
+	Ti.Geolocation.purpose = "عرض المكان الحالي على الخريطة";
+	
 	if (Titanium.Geolocation.locationServicesEnabled == false) {
-		// Titanium.UI.createAlertDialog({
-		// title : 'GPS',
-		// message : 'Your GPS is turned off. Please switch it on.'
-		// }).show();
-
-		// var settingsIntent = Titanium.Android.createIntent({
-		// action : 'android.settings.LOCATION_SOURCE_SETTINGS'
-		// });
-		// Ti.Android.currentActivity.startActivity(settingsIntent);
 
 		var dialog = Ti.UI.createAlertDialog({
 			open : 0,
@@ -37,26 +39,38 @@ function checkGPS(argument) {
 				alert(e.error);
 				return;
 			} else {
-				if (e.coords.accuracy <= 500) {
+				if (e.coords.accuracy <= 500 && (new Date().getTime() - e.coords.timestamp) < 86400000) {
 					mylongitude = e.coords.longitude;
 					mylatitude = e.coords.latitude;
 					entry_accuracy = e.coords.accuracy;
 					entry_timestamp = e.coords.timestamp;
 					Titanium.Geolocation.reverseGeocoder(mylatitude, mylongitude, function(evt) {
 						var places = evt.places;
-						entry_address = places[0].address;
+						if ($.placeDescription.value == '')
+							$.placeDescription.value = places[0].address;
 					});
+					$.mapView.setLocation({
+						latitude: mylatitude,
+						longitude: mylongitude,
+						animate: true});
+					currentPlace.applyProperties({
+						latitude: mylatitude,
+						longitude: mylongitude,
+						animate: true});
 				}
 			}
 
 		});
 
-		Titanium.Geolocation.addEventListener('location', function(e) {
+		Titanium.Geolocation.addEventListener('location', function locationListner(e) {
 			if (e.error) {
 				alert(e.error);
 				return;
 			} else {
 				if (e.coords.accuracy <= 500) {
+					
+					Titanium.Geolocation.removeEventListener('location', locationListner);
+					
 					mylongitude = e.coords.longitude;
 					mylatitude = e.coords.latitude;
 					entry_accuracy = e.coords.accuracy;
@@ -64,9 +78,17 @@ function checkGPS(argument) {
 					Titanium.Geolocation.reverseGeocoder(mylatitude, mylongitude, function(evt) {
 						var places = evt.places;
 						entry_address = places[0].address;
-						
-
+						if ($.placeDescription.value == '')
+							$.placeDescription.value = places[0].address;
 					});
+					$.mapView.setLocation({
+						latitude: mylatitude,
+						longitude: mylongitude,
+						animate: true});
+					currentPlace.applyProperties({
+						latitude: mylatitude,
+						longitude: mylongitude,
+						animate: true});
 				}
 			}
 		});
@@ -87,3 +109,19 @@ function savePlace(argument) {
 	alert('Your Place Was Saved');
 }
 
+$.mapView.setLocation(mekka);
+
+currentPlace = Ti.Map.createAnnotation({
+		draggable:true,
+		animate: true,
+		latitude: mekka.latitude,
+		longitude: mekka.longitude,
+		title: $.placeTitle.value || 'مكان'
+	});
+$.mapView.addAnnotation(currentPlace);
+
+function mapClicked(e){
+	if(!currentPlace){
+		
+	}
+}

@@ -8,7 +8,9 @@ exports.definition = {
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "Youtube"
+			collection_name: "Youtube",
+			//"db_file": "/db.db3",
+			idAttribute: 'id'
 		}
 	},
 	extendModel: function(Model) {

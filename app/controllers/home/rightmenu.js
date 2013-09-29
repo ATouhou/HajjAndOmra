@@ -23,9 +23,19 @@ function places() {
 	Alloy.Globals.menu.closeDrawer();
 }
 
-function about() {
-	var opn = Alloy.createController('aboutApp');
-	Alloy.Globals.menu.setContent(opn.getView());
-	Alloy.Globals.menu.closeDrawer();
+
+
+function openHaj(e) {
+	var ctrl = Alloy.createController("catagoryView", {
+		type : 1
+	});
+	ctrl.getView.open();
 }
 
+
+function openOmra(e) {
+	var ctrl = Alloy.createController("catagoryView", {
+		type : 2
+	});
+	ctrl.getView.open();
+}
