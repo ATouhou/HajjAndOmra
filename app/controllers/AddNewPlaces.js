@@ -96,7 +96,7 @@ function checkGPS(argument) {
 }
 
 function savePlace(argument) {
-	var place = Alloy.createModel('MyPlaces', {
+	var place = Alloy.createModel('myplaces', {
 
 		name : $.placeTitle.value,
 		description : $.placeDescription.value,

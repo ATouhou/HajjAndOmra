@@ -1,4 +1,4 @@
-var data = Alloy.Collections.MyPlaces;
+var data = Alloy.Collections.myplaces;
 data.fetch();
 
 function maping(e) {

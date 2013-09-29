@@ -29,7 +29,8 @@ function openHaj(e) {
 	var ctrl = Alloy.createController("catagoryView", {
 		type : 1
 	});
-	ctrl.getView.open();
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
 }
 
 
@@ -37,5 +38,13 @@ function openOmra(e) {
 	var ctrl = Alloy.createController("catagoryView", {
 		type : 2
 	});
-	ctrl.getView.open();
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
 }
+
+function about() {
+	var opn = Alloy.createController('aboutApp');
+	Alloy.Globals.menu.setContent(opn.getView());
+	Alloy.Globals.menu.closeDrawer();
+}
+
