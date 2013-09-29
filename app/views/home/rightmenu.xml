@@ -19,7 +19,7 @@
 		
 		<ImageView id='aboutPro' class='img'></ImageView>
 		
-		<Button id='btnplaces'>عن البرنامج</Button>
+		<Button id='about' onClick="about">عن البرنامج</Button>
 
 		</ScrollView>
 	</View>

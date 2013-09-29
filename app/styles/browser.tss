@@ -1,6 +1,7 @@
 
 ".container" : {
-	layout:'vertical'
+	layout:'vertical',
+	backgroundColor:'#fafad2'
 }
 
 "#header":{

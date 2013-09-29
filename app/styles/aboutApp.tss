@@ -1,0 +1,91 @@
+
+".container" : {
+	layout:'vertical',
+	backgroundColor:'white'
+}
+
+"#header":{
+
+	width:Ti.UI.FILL,
+	height:37,
+	title:{
+		font:{
+			fontSize:20,
+			fontFamily: Alloy.Globals.customFont,
+		},
+		text:'عن التطبيق' ,
+		color:'black',
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible:true,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+}
+
+'#icon':{
+	top:50,
+	height:150,
+	width:150,
+	backgroundColor:'red'
+}
+
+'#appName':{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:'black',
+	font:{
+		fontSize:20,
+		fontWeight:'bold',
+	}
+}
+
+'#ver':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:'black',
+
+}
+
+'#web':{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	text:'http://www.hashapps.com',
+	color:'black',
+
+}
+
+'#icons':{
+	layout:'horizontal',
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	top:40
+}
+
+'#icon1':{
+	height:20,
+	width:20,
+	backgroundColor:"green",
+	left:10
+}
+
+'#icon2':{
+	height:20,
+	width:20,
+	backgroundColor:"green",
+	left:10
+
+
+}
+
+'#icon3':{
+	height:20,
+	width:20,
+	backgroundColor:"green",
+	left:10
+}

@@ -1,0 +1,15 @@
+<Alloy>
+	<View class="container">
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
+		<ImageView id='icon'></ImageView>
+		<Label id='appName'>مناسك الحج و العمرة</Label>
+		<Label id='ver'>نسخة 105</Label>
+		<Label id='web' onClick="go"></Label>
+		
+		<View id='icons'>
+			<ImageView id='icon1'></ImageView>
+			<ImageView id='icon2'></ImageView>
+			<ImageView id='icon3'></ImageView>
+		</View>
+	</View>
+</Alloy>

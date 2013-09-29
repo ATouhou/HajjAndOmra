@@ -1,7 +1,7 @@
 var args = arguments[0] || {};
 
 var image = args.image;
-var video = args.video;
+var video = args.address;
 
 if (video) {
 	$.show.setUrl(video);
