@@ -13,7 +13,7 @@ function checkGPS(argument) {
 
 		var dialog = Ti.UI.createAlertDialog({
 			open : 0,
-			cancel : 1 ,
+			cancel : 1,
 			buttonNames : ['Open GPS', 'Cancel'],
 			message : 'GPS is turned off , Would you like to open it ?',
 			title : 'GPS Setting'
@@ -64,7 +64,6 @@ function checkGPS(argument) {
 					Titanium.Geolocation.reverseGeocoder(mylatitude, mylongitude, function(evt) {
 						var places = evt.places;
 						entry_address = places[0].address;
-						
 
 					});
 				}
@@ -72,6 +71,17 @@ function checkGPS(argument) {
 		});
 	}
 }
+
+var currentRegion = Ti.UI.createButton({
+	title : 'Region',
+	top : 50,
+	left : 20
+});
+
+currentRegion.addEventListener('click', function(argument) {
+	var region = $.mapView.getRegion();
+	alert(region);
+});
 
 function savePlace(argument) {
 	var place = Alloy.createModel('MyPlaces', {
