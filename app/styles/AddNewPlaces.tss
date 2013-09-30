@@ -25,7 +25,7 @@
 }
 "#placeDescription": {
 	width : Ti.UI.FILL,
-	height : 80,
+	height : 70,
 	hintText : "الوصف",
 	left: '3%',
 	right: '3%',
@@ -34,7 +34,7 @@
 }
 "#mapView": {
 	width : Ti.UI.FILL,
-	height : 260,
+	height : 250,
 	left: '3%',
 	right: '3%',
 	top: '1%'

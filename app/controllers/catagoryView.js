@@ -1,3 +1,7 @@
+$.header.rightNavButton.addEventListener('click', function() {
+
+	Alloy.Globals.menu.toggleRightDrawer();
+});
 var args = arguments[0] || {};
 
 var type = args.type;
