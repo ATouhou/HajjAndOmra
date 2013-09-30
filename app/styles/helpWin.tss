@@ -1,5 +1,8 @@
 
-".container" : {
-  
+"Window" : {
+  backgroundImage : '/images/help.png',
+  backgroundColor : 'transparent',
+  navBarHidden: false,
+  modal: false
 }
 

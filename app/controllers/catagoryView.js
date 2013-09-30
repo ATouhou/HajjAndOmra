@@ -5,6 +5,7 @@ $.header.rightNavButton.addEventListener('click', function() {
 var args = arguments[0] || {};
 
 var type = args.type;
+$.header.title.text = args.title;
 var collection = Alloy.Collections.catagory;
 collection.fetch({
 		// query: 'SELECT * FROM model WHERE columns

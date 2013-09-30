@@ -27,7 +27,8 @@ function places() {
 
 function openHaj(e) {
 	var ctrl = Alloy.createController("catagoryView", {
-		type : 1
+		type : 1,
+		title : 'مناسك الحج'
 	});
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
@@ -36,8 +37,19 @@ function openHaj(e) {
 
 function openOmra(e) {
 	var ctrl = Alloy.createController("catagoryView", {
-		type : 2
+		type : 2,
+		title : 'مناسك العمرة'
 	});
+	Alloy.Globals.menu.setContent(ctrl.getView());
+	Alloy.Globals.menu.closeDrawer();
+}
+
+function openAzkar(e) {
+	var ctrl = Alloy.createController("catagoryView", {
+		type : 3,
+		title : 'اذكار'
+	});
+	
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
 }

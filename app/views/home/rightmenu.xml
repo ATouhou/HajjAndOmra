@@ -40,8 +40,10 @@
 			<Label id="FvPlacesLabl" text="اماكنى المفضلة" class="title"></Label>
 		</View>
 		
-		<ImageView id="azkar"></ImageView>
+		<ImageView class="greenLine"></ImageView>
+		<ImageView id="azkar" onClick="openAzkar"></ImageView>
 		
+		<ImageView class="greenLine"></ImageView>
 		<ImageView id="about" onClick="about"></ImageView>
 	</ScrollView>
 
