@@ -2,12 +2,14 @@
 '#win':{
 	backgroundImage : "/images/background.png",
   navBarHidden: true,
+
 }
 
 "#main" : {
 	bottom:10,	
 	borderRadius : 10,
-	 layout : "vertical"
+	layout : "vertical",
+
 }
  
 "#header":{
@@ -40,17 +42,21 @@
 	 top : 47,
 	 left : 10,
 	 right : 10,
+	 backgroundColor:'red',
 }
+
 "#lblTitle": {
 	color: 'white',
 	font:{
 		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 	},
-	right: 40,
+	right:5,
 	left: 5,
-	textAlign: 'right'
+	textAlign:'right'
+
 }
+
 '#imgThumb':{
 	right:5,
 	width: 30,
@@ -60,13 +66,5 @@
 	height: 40
 }
 
-'#item':{
-	textAlign: 'right'
-}
-
-'#section':{
-		textAlign: 'right'
-
-}
 
 
