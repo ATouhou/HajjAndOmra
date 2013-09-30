@@ -19,3 +19,7 @@ $.menu.init({
   content: Alloy.createController('home/home').getView()
 });
 
+//var x=Alloy.createCollection('Catagory');
+// i use here Alloy.createCollection not Alloy.collection because i didn't make collection in xml
+//alert(x.fetch());
+
