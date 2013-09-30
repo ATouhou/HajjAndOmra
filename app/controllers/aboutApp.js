@@ -13,7 +13,7 @@ $.header.rightNavButton.addEventListener('click', function() {
 function face() {
 	var text = $.web.text;
 	var brws = Alloy.createController('browser', {
-		video : 'https://www.facebook.com/'
+		video : 'http://www.facebook.com/'
 	}).getView();
 	brws.open();
 }
@@ -29,7 +29,7 @@ function web() {
 function twitter() {
 	var text = $.web.text;
 	var brws = Alloy.createController('browser', {
-		video : 'https://twitter.com/'
+		video : 'http://twitter.com/'
 	}).getView();
 	brws.open();
 }
