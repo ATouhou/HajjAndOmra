@@ -1,17 +1,19 @@
 <Alloy>
 	<Collection src="catagory" />
-	<View class="container">
+	<Window id='win'>
 		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
-		<ListView id="list" >
-			<Templates>
-				<ItemTemplate name="fullItem" class="itmT">
-					<Label bindId="title" id="lblTitle"></Label>
-					<ImageView bindId="image" id="imgThumb"></ImageView>
-				</ItemTemplate>
-			</Templates>
-			<ListSection id="section" dataCollection="catagory">
-				<ListItem title:text="{name}" image:image="{image}" template="fullItem"/>
-			</ListSection>
-		</ListView>
-	</View>
+		<View id="main">
+			<ListView id="list" >
+				<Templates>
+					<ItemTemplate name="fullItem" class="itmT">
+						<Label bindId="title" id="lblTitle"></Label>
+						<ImageView bindId="image" id="imgThumb"></ImageView>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="section" dataCollection="catagory">
+					<ListItem id='item' title:text="{name}" image:image="{image}" template="fullItem"/>
+				</ListSection>
+			</ListView>
+		</View>
+	</Window>
 </Alloy>
