@@ -13,7 +13,7 @@ $.header.rightNavButton.addEventListener('click', function() {
 function face() {
 	var text = $.web.text;
 	var brws = Alloy.createController('browser', {
-		video : 'http//:www.facebook.com'
+		video : 'http://m.facebook.com'
 	}).getView();
 	brws.open();
 }
@@ -21,7 +21,7 @@ function face() {
 function web() {
 	var text = $.web.text;
 	var brws = Alloy.createController('browser', {
-		video : 'http://www.hashapps.com'
+		video : 'http://www.hashapps.com/HashApps'
 	}).getView();
 	brws.open();
 }
@@ -29,7 +29,7 @@ function web() {
 function twitter() {
 	var text = $.web.text;
 	var brws = Alloy.createController('browser', {
-		video : 'http//:www.twitter.com'
+		video : 'http://mobile.twitter.com/HashAppsCo'
 	}).getView();
 	brws.open();
 }
