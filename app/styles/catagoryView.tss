@@ -1,9 +1,17 @@
 
-".container" : {
- backgroundImage : "/images/background.png",
-  layout : "vertical",
-  navBarHidden: true
+'#win':{
+	backgroundImage : "/images/background.png",
+  navBarHidden: true,
+
 }
+
+"#main" : {
+	bottom:10,	
+	borderRadius : 10,
+	layout : "vertical",
+
+}
+ 
 "#header":{
 	width:320,
 	height:37,
@@ -25,31 +33,36 @@
 	},
 	backgroundColor:'white'
 }
+
 "#list":{
 	 backgroundImage: '/images/menu_background.png',
-	 top : 10,
+	 textAlign: 'right',
+	 borderRadius : 10,
+	 top : 47,
 	 left : 10,
-	 bottom :20,
-	 right : 10,
-	 borderRadius : 10
+	 right : 10
 }
+
 "#lblTitle": {
 	color: 'white',
 	font:{
 		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 	},
-	right: 40,
-	left: 5,
-	textAlign: 'right'
-}
-'#imgThumb':{
 	right:5,
+	left: 5,
+	textAlign:'right'
+
+}
+
+'#imgThumb':{
+	right:6,
 	width: 30,
 	height: 30,
 }
 '.itmT':{
 	height: 40
 }
+
 
 
