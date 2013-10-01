@@ -3,11 +3,13 @@
 	<Window id='win'>
 		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
 		<View id="main">
-			<ListView id="list" onItemclick='list'>
+			<ListView id="list">
 				<Templates>
 					<ItemTemplate name="fullItem" class="itmT">
-						<Label bindId="title" id="lblTitle" onClick="list" ></Label>
-						<ImageView bindId="image" id="imgThumb" onClick="list" ></ImageView>
+						<View id="itemBG" onClick="list">
+							<Label bindId="title" id="lblTitle"></Label>
+							<ImageView bindId="image" id="imgThumb"></ImageView>
+						</View>
 					</ItemTemplate>
 				</Templates>
 				<ListSection id="section" dataCollection="catagory" >

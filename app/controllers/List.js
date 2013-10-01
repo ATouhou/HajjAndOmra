@@ -13,6 +13,12 @@ collection.fetch({
 	}
 });
 
-Alloy.Collections.item.fetch();
-
 $.header.title.text=args.data.get('name');
+
+function itemDetails(e){
+	var index=e.itemIndex;
+	var value=collection.at(index);
+	var opn=Alloy.createController('ItemDetails',{data:value});
+	opn.getView().open();
+	
+}

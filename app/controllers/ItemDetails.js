@@ -1,9 +1,9 @@
 var args = arguments[0] || {};
 
 if (args.get) {
-	$.header.text = args.get('name');
-	$.image.image = args.get('image');
-	$.details.text = args.get('details');
+	$.header.text = args.data.get('name');
+	$.image.image = args.data.get('image');
+	$.details.text = args.data.get('details');
 } 
 
 function show(){
