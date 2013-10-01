@@ -1,0 +1,1 @@
+supervisor -n exit -w Resources -x tishadow run
