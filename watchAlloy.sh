@@ -1,0 +1,1 @@
+supervisor -n exit -w app -e "js|tss|xml" -x alloy -- compile --config platform=android
