@@ -16,9 +16,9 @@ function checkGPS(argument) {
 		var dialog = Ti.UI.createAlertDialog({
 			open : 0,
 			cancel : 1 ,
-			buttonNames : ['Open GPS', 'Cancel'],
-			message : 'GPS is turned off , Would you like to open it ?',
-			title : 'GPS Setting'
+			buttonNames : ['تفعيل تحديد المكان', 'الغاء'],
+			message : 'تحديد الماكن غير مفغل , هل ترغب فى تفعيله ؟',
+			title : 'تحذير'
 		});
 		dialog.addEventListener('click', function(e) {
 			if (e.index === e.source.open) {
@@ -106,7 +106,7 @@ function savePlace(argument) {
 	place.save();
 	Ti.App.fireEvent("app:update");
 	$.win.close();
-	alert('Your Place Was Saved');
+	alert('تم حفظ المكان');
 }
 
 $.mapView.setLocation(mekka);

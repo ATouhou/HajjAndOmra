@@ -8,7 +8,6 @@
 	width:320,
 	height:37,
 	title:{
-		text : "مناسك الحج ",
 		color : "black",
 		font:{
 		 fontSize:20,

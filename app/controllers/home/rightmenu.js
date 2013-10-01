@@ -64,7 +64,8 @@ var hajPlaylist = "PLWN82HMvn_KyDs4lh1p2TTp2Ot0Tey21O", data;
 
 function hajVideos() {
 	var ctrl = Alloy.createController('youtubeView' , {
-		playlist : hajPlaylist 
+		playlist : hajPlaylist,
+		title : 'مناسك الحج فيديو'
 	});
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();
@@ -73,7 +74,8 @@ var ormaPlaylist = "PL8I4VP2ZKwSaOsSxHOPoGStj72FNaVgqC", data;
 
 function omraVideos() {
 	var ctrl = Alloy.createController('youtubeView' , {
-		playlist : ormaPlaylist 
+		playlist : ormaPlaylist,
+		title : 'مناسك العمرة فيديو'
 	});
 	Alloy.Globals.menu.setContent(ctrl.getView());
 	Alloy.Globals.menu.closeDrawer();	

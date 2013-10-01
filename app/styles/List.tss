@@ -8,6 +8,7 @@
 	width:320,
 	height:37,
 	title:{
+		color : "black",
 		font:{
 		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
