@@ -1,15 +1,14 @@
 
 '#win':{
 	backgroundImage : "/images/background.png",
-  navBarHidden: true,
+	  navBarHidden: true,
+	  layout : "vertical",
 
 }
 
 "#main" : {
 	bottom:10,	
 	borderRadius : 10,
-	layout : "vertical",
-
 }
  
 "#header":{
@@ -27,7 +26,7 @@
 		title:'',
 		backgroundImage: '/images/btn_menu_icon_normal.png',
 		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
-		visible: true,
+		visible:true,
 		width:27,
 		height:19,
 	},
@@ -38,9 +37,10 @@
 	 backgroundImage: '/images/menu_background.png',
 	 textAlign: 'right',
 	 borderRadius : 10,
-	 top : 47,
 	 left : 10,
-	 right : 10
+	 right : 10,
+	 top:10,
+	 bottom:10
 }
 
 "#lblTitle": {

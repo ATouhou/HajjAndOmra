@@ -13,7 +13,6 @@
 			fontSize:20,
 			fontFamily: Alloy.Globals.customFont,
 		},
-		text:'web' ,
 		color:'black',
 	},
 	rightNavButton:{
