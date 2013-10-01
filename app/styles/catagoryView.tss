@@ -20,7 +20,7 @@
 		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 		    },
-		 text : 'مناسك',
+		 
 		 color : 'black'	    
 	},
 	rightNavButton:{

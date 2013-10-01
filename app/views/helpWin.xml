@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container" navBarHidden="false">
-		<Label>Help Window</Label>
+	<Window>
+		
 	</Window>
 </Alloy>

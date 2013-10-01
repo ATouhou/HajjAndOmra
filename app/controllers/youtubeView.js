@@ -4,11 +4,11 @@ $.header.rightNavButton.addEventListener('click', function() {
 });
 var collec = Alloy.Collections.Youtube;
 var mdl;
-
-var playlist = "PLWN82HMvn_KyDs4lh1p2TTp2Ot0Tey21O", data;
+var args = arguments[0] || {};
+//var playlist = "PLWN82HMvn_KyDs4lh1p2TTp2Ot0Tey21O", data;
 var loader = Titanium.Network.createHTTPClient();
 
-loader.open("GET", "http://gdata.youtube.com/feeds/api/playlists/" + playlist + "?v=2");
+loader.open("GET", "http://gdata.youtube.com/feeds/api/playlists/" + args.playlist + "?v=2");
 
 loader.onload = function(e) {
 

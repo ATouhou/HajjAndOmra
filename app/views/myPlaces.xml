@@ -7,12 +7,12 @@
 		</View>
 		
 		
-			<ListView id='myListPlaces' onItemclick='maping'>
+			<ListView id='myListPlaces' onItemclick='maping' >
 				<Templates>
 					<ItemTemplate name="temp">
 						<View id='vert'>
-						<Label bindId='name' id='main'/>
-						<Label bindId='description' id='sub'/>
+						<Label bindId='name' id='main' onLongpress="edit"/>
+						<Label bindId='description' id='sub' onLongpress="edit"/>
 						</View>
 					</ItemTemplate>
 				</Templates>
