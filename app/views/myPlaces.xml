@@ -3,9 +3,7 @@
 	<View class="container">
 		<View id="headView">
 			<Widget src="com.hashapps.widgets.titlebar" id="header"/>
-			<Label id="newPlace" onClick="openAddNew">+</Label>
 		</View>
-		
 		
 			<ListView id='myListPlaces' onItemclick='maping' >
 				<Templates>

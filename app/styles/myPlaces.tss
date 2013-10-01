@@ -28,6 +28,14 @@
 		width:27,
 		height:19,
 	},
+	leftNavButton:{
+		title : '',
+		backgroundImage : '/images/btn_add_place_pressed.png',
+		backgroundSelectedImage : '/images/btn_add_place_normal.png',
+		visible: true,
+		width:27,
+		height:25
+	},
 	backgroundColor:'white'
 }
 "#newPlace": {

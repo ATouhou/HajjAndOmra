@@ -14,14 +14,16 @@ $.header.rightNavButton.addEventListener('click', function() {
 	Alloy.Globals.menu.toggleRightDrawer();
 });
 
+$.header.leftNavButton.addEventListener('click', function() {
+	var ctrl = Alloy.createController('AddNewPlaces');
+	ctrl.getView().open();
+});
+
 Ti.App.addEventListener('app:update', function(argument) {
 	data.fetch();
 });
 
-function openAddNew() {
-	var ctrl = Alloy.createController('AddNewPlaces');
-	ctrl.getView().open();
-}
+
 
 function edit (argument) {
  var dialog = Ti.UI.createAlertDialog({

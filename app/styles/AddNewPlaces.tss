@@ -5,7 +5,7 @@
   
 }
 "#winTitle":{
-	text : "Add New Place",
+	text : "اضافة مكان جديد",
 	color : "black",
 	// width : Ti.UI.FILL,
 	// height : Ti.UI.SIZE
