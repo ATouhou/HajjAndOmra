@@ -8,7 +8,7 @@
 			<ImageView id="mnaskHaj" class="img"></ImageView>
 			<Label id="mnaskHajLbl" text="مناسك" class="title"></Label>
 		</View>
-		<View id="videos">
+		<View id="videos" onClick="hajVideos">
 			<ImageView id="videoHaj" class="img"></ImageView>
 			<Label id="videoHajLbl" text="فيديوهات" class="title"></Label>
 		</View>
@@ -21,7 +21,7 @@
 			<ImageView id="mnaskOmra" class="img"></ImageView>
 			<Label id="mnaskOmraLbl" text="مناسك" class="title"></Label>
 		</View>
-		<View id="videosO">
+		<View id="videosO" onClick="omraVideos">
 			<ImageView id="videoOmra" class="img"></ImageView>
 			<Label id="videoOmraLbl" text="فيديوهات" class="title"></Label>
 		</View>
