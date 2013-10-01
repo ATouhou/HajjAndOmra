@@ -7,8 +7,8 @@ if (args.get) {
 } 
 
 function show(){
-	var image=args.get('image');
-	var video=args.get('video');
+	var image=args.data.get('image');
+	var video=args.data.get('video');
 	
 	if(video){
 		var x=Alloy.createController('browser',{video:video}).getView();
