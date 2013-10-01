@@ -18,11 +18,7 @@ collection.fetch({
 function list(e) {
 	var index=e.itemIndex;
 	var value=collection.at(index);
-	var win = Ti.UI.createWindow({
-		backgroundColor: 'white',
-		navBarHidden:'true'
-	});
+	
 	var list=Alloy.createController('List',{data:value}).getView();
-	win.add(list);
-	win.open();
+	list.open();
 };
