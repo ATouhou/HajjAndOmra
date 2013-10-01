@@ -3,7 +3,7 @@
 	<Window id='win'>
 		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
 		<View id="main">
-			<ListView id="list" >
+			<ListView id="list" onItemclick='list'>
 				<Templates>
 					<ItemTemplate name="fullItem" class="itmT">
 						<Label bindId="title" id="lblTitle"></Label>

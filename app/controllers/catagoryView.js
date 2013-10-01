@@ -1,7 +1,7 @@
 $.header.rightNavButton.addEventListener('click', function() {
-
 	Alloy.Globals.menu.toggleRightDrawer();
 });
+
 var args = arguments[0] || {};
 
 var type = args.type;
@@ -13,3 +13,10 @@ collection.fetch({
 			params: [type]
 		}
 	});
+	
+function list(e) {
+	var index=e.itemIndex;
+	var value=collection.at(index);
+	var opn=Alloy.createController('List',{data:value}).getView();
+	opn.open();
+};
