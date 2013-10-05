@@ -19,7 +19,6 @@
 }
 
 "#header":{
-
 	width:Ti.UI.FILL,
 	height:'7.7%',
 	title:{
@@ -140,7 +139,6 @@
 	font:{
 		fontSize:30,
 	}
-
 }
 
 '#icons':{
