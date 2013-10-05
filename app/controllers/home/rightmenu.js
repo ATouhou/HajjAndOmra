@@ -1,3 +1,9 @@
+
+//$.win.setHeight(1*Titanium.Platform.displayCaps.platformHeight);
+$.win.setWidth(0.7*Titanium.Platform.displayCaps.platformWidth);
+
+
+
 function hideMenu() {
 	setTimeout(function() {
 		Alloy.Globals.menu.toggleRightDrawer();
