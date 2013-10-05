@@ -12,15 +12,7 @@
 }
  
 "#header":{
-	title:{
-		color : "black",
-		font:{
-		 fontSize:20,
-      	 fontFamily: Alloy.Globals.customFont
-		    },
-		 
-		 color : 'black'	    
-	},
+	
 	rightNavButton:{
 		title:'',
 		backgroundImage: '/images/btn_menu_icon_normal.png',
@@ -49,6 +41,22 @@
       	 fontFamily: Alloy.Globals.customFont
 	},
 	right:5,
+	left: 5,
+	textAlign:'right'
+
+}
+
+"#row[formFactor=tablet]": {
+	height : 65
+}
+"#lblTitle[formFactor=tablet]": {
+	
+	color: 'white',
+	font:{
+		 fontSize:40,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:15,
 	left: 5,
 	textAlign:'right'
 

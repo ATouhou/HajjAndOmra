@@ -21,14 +21,6 @@
 
 
 "#header":{
-	title:{
-		font:{
-		 fontSize:20,
-		 fontFamily: Alloy.Globals.customFont,
-			 },
-		
-		color:'black'
-	},
 	
 	rightNavButton:{
 		title:'',

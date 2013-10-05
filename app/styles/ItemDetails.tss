@@ -7,12 +7,9 @@
 },
 "#header":{
 	title:{
-		font:{
-		 fontSize:20,
-      	 fontFamily: Alloy.Globals.customFont,
-		     },
+		
      text:'مناسك الحج' ,
- 	 color:'black',
+ 	 
 	},
 	rightNavButton:{
 		title:'',

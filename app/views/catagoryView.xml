@@ -5,7 +5,7 @@
 		<View id="main">
 			<ListView id="list">
 				<Templates>
-					<ItemTemplate name="fullItem" class="itmT">
+					<ItemTemplate id="row" name="fullItem" class="itmT">
 						<View id="itemBG" onClick="list">
 							<Label bindId="title" id="lblTitle"></Label>
 							<ImageView bindId="image" id="imgThumb"></ImageView>

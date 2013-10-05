@@ -4,16 +4,22 @@
  backgroundColor : "white"
   
 }
-"#winTitle":{
-	text : "اضافة مكان جديد",
-	color : "black",
-	// width : Ti.UI.FILL,
-	// height : Ti.UI.SIZE
-	font: {
-		fontSize : 20,
-	}
+"#headView": {
+	width:Ti.UI.FILL,
+	height : Ti.UI.SIZE
 }
 
+"#header":{
+	backgroundColor : "white",
+	title:{
+		font:{
+			fontSize:20,
+			fontFamily: Alloy.Globals.customFont,
+		},
+		text:'اضف مكان جديد' ,
+		color:'black',
+	}
+}
 "#placeTitle": {
 	width : Ti.UI.FILL,
 	height : Ti.UI.SIZE,

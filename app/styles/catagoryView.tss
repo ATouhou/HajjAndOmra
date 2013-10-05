@@ -43,7 +43,7 @@
 "#lblTitle": {
 	color: 'white',
 	font:{
-		 fontSize:10,
+		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 	},
 	right:5,
@@ -94,14 +94,17 @@
 	 top:10,
 	 bottom:10
 }
-
-"#lblTitle[formFactor]": {
+"#row[formFactor=tablet]": {
+	height : 65
+}
+"#lblTitle[formFactor=tablet]": {
+	
 	color: 'white',
 	font:{
-		 fontSize:30,
+		 fontSize:40,
       	 fontFamily: Alloy.Globals.customFont
 	},
-	right:5,
+	right:15,
 	left: 5,
 	textAlign:'right'
 
