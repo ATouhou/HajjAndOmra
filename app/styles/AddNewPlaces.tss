@@ -14,9 +14,20 @@
 	}
 }
 
+"#winTitle[formFactor=tablet]":{
+	text : "اضافة مكان جديد",
+	color : "black",
+	// width : Ti.UI.FILL,
+	// height : Ti.UI.SIZE
+	font: {
+		fontSize : 40,
+	}
+}
+
+
 "#placeTitle": {
-	width : Ti.UI.FILL,
-	height : Ti.UI.SIZE,
+	width :'100%',
+	height :'9%' ,
 	hintText : "العنوان",
 	left: '3%',
 	right: '3%',
@@ -24,8 +35,8 @@
 	
 }
 "#placeDescription": {
-	width : Ti.UI.FILL,
-	height : 70,
+	width : '100%',
+	height : '9%',
 	hintText : "الوصف",
 	left: '3%',
 	right: '3%',
@@ -34,7 +45,7 @@
 }
 "#mapView": {
 	width : Ti.UI.FILL,
-	height : 250,
+	height : '65%',
 	left: '3%',
 	right: '3%',
 	top: '1%'
@@ -49,6 +60,16 @@
 "#save": {
 	title : "save",
 	width : "40%",
-	// height : Ti.UI.SIZE,
+	height:"10%",
 	top : 5
+}
+
+"#save[formFactor=tablet]": {
+	title : "save",
+	width : "40%",
+	height:"10%",
+	top : 5,
+	font:{
+		size:20
+	}
 }
