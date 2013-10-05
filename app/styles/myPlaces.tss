@@ -10,12 +10,8 @@
 }
 "#header":{
 	title:{
-		font:{
-			fontSize:20,
-			fontFamily: Alloy.Globals.customFont,
-		},
+		
 		text:'اماكنى المفضلة' ,
-		color:'black',
 	},
 	rightNavButton:{
 		title:'',
@@ -26,8 +22,7 @@
 		backgroundImage : '/images/btn_add_place_pressed.png',
 		backgroundSelectedImage : '/images/btn_add_place_normal.png',
 		visible: true,
-		width:27,
-		height:25
+		
 	},
 	backgroundColor:'white'
 }

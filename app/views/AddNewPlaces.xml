@@ -1,6 +1,6 @@
 <Alloy>
 	<Window id="win" class='container' navBarHidden="true">
-		<Label id="winTitle"></Label>
+		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
 		<TextField id="placeTitle"></TextField>
 		<TextArea id="placeDescription"></TextArea>
 		<View id="mapView" ns="Ti.Map" animate="true"

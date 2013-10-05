@@ -4,48 +4,87 @@
  backgroundColor : "white"
   
 }
-"#winTitle":{
-	text : "اضافة مكان جديد",
-	color : "black",
-	// width : Ti.UI.FILL,
-	// height : Ti.UI.SIZE
-	font: {
-		fontSize : 20,
-	}
+
+"#header":{
+	title:{
+		
+		text:'اضافة مكان جديد' ,
+	},
+	rightNavButton:{
+		title:'',
+		visible:false,
+	},
+	leftNavButton:{
+		title : '',
+		backgroundImage : '/images/btn_add_place_pressed.png',
+		backgroundSelectedImage : '/images/btn_add_place_normal.png',
+		visible:false,
+		width:27,
+		height:25
+	},
+	backgroundColor:'white'
 }
 
-"#winTitle[formFactor=tablet]":{
-	text : "اضافة مكان جديد",
-	color : "black",
-	// width : Ti.UI.FILL,
-	// height : Ti.UI.SIZE
-	font: {
-		fontSize : 40,
-	}
+"#header[formFactor=tablet]":{
+	title:{
+		text:'اضافة مكان جديد' ,
+	},
+	rightNavButton:{
+		title:'',
+		visible:false,
+	},
+	leftNavButton:{
+		title : '',
+		backgroundImage : '/images/btn_add_place_pressed.png',
+		backgroundSelectedImage : '/images/btn_add_place_normal.png',
+		visible: false,
+		width:27,
+		height:25
+	},
+	backgroundColor:'white'
 }
-
 
 "#placeTitle": {
-	width :'100%',
-	height :'9%' ,
 	hintText : "العنوان",
+	width:'95%',
 	left: '3%',
 	right: '3%',
-	top: '1%'
-	
+	top: '1%',
 }
+
 "#placeDescription": {
-	width : '100%',
-	height : '9%',
+	width : '95%',
 	hintText : "الوصف",
 	left: '3%',
 	right: '3%',
-	top: '1%'
-	
+	top: '1%'	
 }
+
+"#placeTitle[formFactor=tablet]": {
+	width :'95%',
+	hintText : "العنوان",
+	left: '3%',
+	right: '3%',
+	top: '1%',
+	font:{
+		fontSize:40
+	}
+}
+
+"#placeDescription[formFactor=tablet]": {
+	width : '95%',
+	hintText : "الوصف",
+	left: '3%',
+	right: '3%',
+	top: '1%'	,
+	font:{
+		fontSize:40
+	}
+}
+
+
 "#mapView": {
 	width : Ti.UI.FILL,
-	height : '65%',
 	left: '3%',
 	right: '3%',
 	top: '1%'
@@ -60,16 +99,14 @@
 "#save": {
 	title : "save",
 	width : "40%",
-	height:"10%",
-	top : 5
+	top : '1%'
 }
 
 "#save[formFactor=tablet]": {
 	title : "save",
 	width : "40%",
-	height:"10%",
-	top : 5,
+	top : '2%',
 	font:{
-		size:20
+		fontSize:35
 	}
 }

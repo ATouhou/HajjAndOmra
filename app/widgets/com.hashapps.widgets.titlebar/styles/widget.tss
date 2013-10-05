@@ -42,9 +42,9 @@
 }
 "#leftNavButton" :{
     left: '2%',
-    width: "17%",
+    width: "10%",
     title: 'ﺭﺟﻮﻉ',
-	height: 31,
+	height: '65%',
     visible: true,
     font: {
 		fontSize: 12,

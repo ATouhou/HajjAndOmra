@@ -125,3 +125,8 @@ function mapClicked(e){
 		
 	}
 }
+
+$.placeTitle.setHeight(0.07*Titanium.Platform.displayCaps.platformHeight);
+$.placeDescription.setHeight(0.11*Titanium.Platform.displayCaps.platformHeight);
+$.mapView.setHeight(0.55*Titanium.Platform.displayCaps.platformHeight);
+$.save.setHeight(0.1*Titanium.Platform.displayCaps.platformHeight);
