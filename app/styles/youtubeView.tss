@@ -5,20 +5,14 @@
   navBarHidden: true
 }
 "#header":{
-	title:{
-		color : "black",
-		font:{
-		 fontSize:20,
-      	 fontFamily: Alloy.Globals.customFont
-		     }
-	},
+	
 	rightNavButton:{
 		title:'',
-		backgroundImage: '/images/btn_menu_icon_normal.png',
-		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+
+
 		visible: true,
-		width:27,
-		height:19,
+
+
 	},
 	backgroundColor:'white'
 }
