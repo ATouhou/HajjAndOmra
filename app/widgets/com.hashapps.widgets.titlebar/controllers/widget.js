@@ -23,6 +23,8 @@ exports.init = function(win){
 	}, 100);
 }
 
-var height=$.background.setHeight(0.07*Titanium.Platform.displayCaps.platformHeight);
-var width=$.background.setWidth(1*Titanium.Platform.displayCaps.platformWidth);
+$.background.setHeight(0.07*Titanium.Platform.displayCaps.platformHeight);
+$.background.setWidth(1*Titanium.Platform.displayCaps.platformWidth);
+
+
 

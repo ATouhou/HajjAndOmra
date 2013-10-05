@@ -5,22 +5,12 @@
 }
 
 "#header":{
-	title:{
-		font:{
-			fontSize:20,
-			fontFamily: Alloy.Globals.customFont,
-		},
-		color:'black',
-	},
+	
 	rightNavButton:{
 		title:'',
-		backgroundImage: '/images/btn_menu_icon_normal.png',
-		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
 		visible:false,
-		width:'8%',
-		height:'56%',
-	},
-	backgroundColor:'white'
+	}
+
 }
 
 '#contain':{

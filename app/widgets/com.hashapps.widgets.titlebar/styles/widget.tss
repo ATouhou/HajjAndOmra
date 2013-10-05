@@ -3,14 +3,23 @@
 		fontSize: 20,
 		fontFamily: Alloy.Globals.customFont
 	},
-	color:"#007ca6",
+	color:"black",
 	width: '60%',
 	textAlign: 'center'
 }
+
+'#lblTitle[formFactor=tablet]':{
+	font: {
+		fontSize: 40,
+		fontFamily: Alloy.Globals.customFont
+	},
+	color:"black",
+	width: '60%',
+	textAlign: 'center'
+}
+
 "#background":{
-	backgroundColor: 'green',
-	height: 45,
-	width: Ti.UI.FILL,
+	backgroundColor: 'white',
 	top:0
 }
 "#imgLogo":{
@@ -21,8 +30,10 @@
 "#rightNavButton" :{
     right: "2%",
     title: 'next',
-    height: 30,
-    width: "17%",
+    height: '51.3%',
+    width: "9%",
+    backgroundImage: '/images/btn_menu_icon_normal.png',
+	backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
     visible: false,
     font: {
 		fontSize: 12,
