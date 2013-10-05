@@ -9,9 +9,6 @@
 	height : Ti.UI.SIZE
 }
 "#header":{
-
-	width:Ti.UI.FILL,
-	height:37,
 	title:{
 		font:{
 			fontSize:20,

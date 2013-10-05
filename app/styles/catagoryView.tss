@@ -3,7 +3,6 @@
 	backgroundImage : "/images/background.png",
 	  navBarHidden: true,
 	  layout : "vertical",
-
 }
 
 "#main" : {
@@ -12,8 +11,6 @@
 }
  
 "#header":{
-	width:320,
-	height:37,
 	title:{
 		font:{
 		 fontSize:20,
@@ -46,7 +43,7 @@
 "#lblTitle": {
 	color: 'white',
 	font:{
-		 fontSize:20,
+		 fontSize:10,
       	 fontFamily: Alloy.Globals.customFont
 	},
 	right:5,
@@ -63,6 +60,55 @@
 '.itmT':{
 	height: 40
 }
+
+
+
+
+
+"#header[formFactor=tablet]":{
+	title:{
+		font:{
+		 fontSize:35,
+      	 fontFamily: Alloy.Globals.customFont
+		    },
+		 
+		 color : 'black'	    
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible:true,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+}
+
+"#list":{
+	 backgroundImage: '/images/menu_background.png',
+	 textAlign: 'right',
+	 borderRadius : 10,
+	 left : 10,
+	 right : 10,
+	 top:10,
+	 bottom:10
+}
+
+"#lblTitle[formFactor]": {
+	color: 'white',
+	font:{
+		 fontSize:30,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:5,
+	left: 5,
+	textAlign:'right'
+
+}
+
+
+
 
 
 

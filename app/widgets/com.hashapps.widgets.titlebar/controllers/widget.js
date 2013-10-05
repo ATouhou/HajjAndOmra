@@ -22,3 +22,7 @@ exports.init = function(win){
 		$.lblTitle.text = win.title;
 	}, 100);
 }
+
+var height=$.background.setHeight(0.07*Titanium.Platform.displayCaps.platformHeight);
+var width=$.background.setWidth(1*Titanium.Platform.displayCaps.platformWidth);
+

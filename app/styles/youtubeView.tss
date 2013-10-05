@@ -5,8 +5,6 @@
   navBarHidden: true
 }
 "#header":{
-	width:320,
-	height:37,
 	title:{
 		color : "black",
 		font:{
