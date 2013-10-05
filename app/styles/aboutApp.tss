@@ -24,7 +24,7 @@
 	height:'7.7%',
 	title:{
 		font:{
-			fontSize:20,
+			fontSize:25,
 			fontFamily: Alloy.Globals.customFont,
 		},
 		text:'عن التطبيق' ,
@@ -155,7 +155,7 @@
 	width:'10.6%',
 	backgroundImage:"/images/btn_facebook_normal.png",
 	backgroundSelectedImage:'/images/btn_facebook_pressed.png',
-		left:'20%'
+	left:'20%'
 
 }
 
