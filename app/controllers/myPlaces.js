@@ -25,7 +25,7 @@ Ti.App.addEventListener('app:update', function(argument) {
 
 function edit(argument) {
 	var dialog = Ti.UI.createAlertDialog({
-		buttonNames : ['Delete', 'Cancel'],
+		buttonNames : ['مسح', 'الغاء'],
 		message : 'قم بتعديل اماكنك',
 		title : 'تعديل المكان'
 	});

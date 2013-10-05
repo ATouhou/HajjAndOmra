@@ -4,7 +4,7 @@
 		<Widget src="com.hashapps.widgets.titlebar" id="header"/>
 			<ListView id='myListPlaces' onItemclick='maping'>
 				<Templates>
-					<ItemTemplate name="temp">
+					<ItemTemplate id="row" name="temp">
 						<View id='vert'>
 						<Label bindId='name' id='main'/>
 						<Label bindId='description' id='sub'/>

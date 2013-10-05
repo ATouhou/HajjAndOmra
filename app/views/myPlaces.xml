@@ -7,7 +7,7 @@
 		
 			<ListView id='myListPlaces' onItemclick='maping' >
 				<Templates>
-					<ItemTemplate name="temp">
+					<ItemTemplate id="row" name="temp">
 						<View id='vert'>
 						<Label bindId='name' id='main' onLongpress="edit"/>
 						<Label bindId='description' id='sub' onLongpress="edit"/>

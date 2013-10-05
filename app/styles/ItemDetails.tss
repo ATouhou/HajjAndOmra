@@ -5,15 +5,20 @@
   backgroundImage : "/images/background.png",
   layout:'vetical'
 },
+
 "#header":{
 	title:{
 		
      text:'مناسك الحج' ,
+ 	 
 	},
 	rightNavButton:{
 		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
 		visible: false,
-		
+		width:27,
+		height:19,
 	},
 	backgroundColor:'white'
 },
@@ -44,7 +49,7 @@
 "ScrollView": {
 	left : 10 ,
 	right : 10 ,
-	top : 50 ,
+	top : "10%" ,
 	bottom : 10 ,
 	borderRadius : 7 ,
 	backgroundColor: "#e6e6e6"

@@ -13,6 +13,7 @@ var loader = Titanium.Network.createHTTPClient();
 
 loader.open("GET", "http://gdata.youtube.com/feeds/api/playlists/" + argsPlaylist.playlist + "?v=2");
 
+
 loader.onload = function(e) {
 
 	data = [];

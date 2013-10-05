@@ -5,21 +5,30 @@
 	  layout : "vertical",
 }
 
-"#main":{
+"#main" : {
 	bottom:10,	
 	borderRadius : 10,
 }
  
 "#header":{
-	
-
+	title:{
+		font:{
+		 fontSize:20,
+      	 fontFamily: Alloy.Globals.customFont
+		    },
+		 
+		 color : 'black'	    
+	},
 	rightNavButton:{
 		title:'',
-		visible:true
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible:true,
+		width:27,
+		height:19,
 	},
+	backgroundColor:'white'
 }
-
-
 
 "#list":{
 	 backgroundImage: '/images/menu_background.png',
@@ -34,7 +43,7 @@
 "#lblTitle": {
 	color: 'white',
 	font:{
-		 fontSize:5,
+		 fontSize:20,
       	 fontFamily: Alloy.Globals.customFont
 	},
 	right:5,
@@ -51,6 +60,56 @@
 '.itmT':{
 	height: 40
 }
+
+
+
+
+
+"#header[formFactor=tablet]":{
+	title:{
+		font:{
+		 fontSize:35,
+      	 fontFamily: Alloy.Globals.customFont
+		    },
+		 
+		 color : 'black'	    
+	},
+	rightNavButton:{
+		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
+		visible:true,
+		width:27,
+		height:19,
+	},
+	backgroundColor:'white'
+}
+
+"#list":{
+	 backgroundImage: '/images/menu_background.png',
+	 textAlign: 'right',
+	 borderRadius : 10,
+	 left : 10,
+	 right : 10,
+	 top:10,
+	 bottom:10
+}
+"#row[formFactor=tablet]": {
+	height : 65
+}
+"#lblTitle[formFactor=tablet]": {
+	
+	color: 'white',
+	font:{
+		 fontSize:40,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:15,
+	left: 5,
+	textAlign:'right'
+
+}
+
 
 
 

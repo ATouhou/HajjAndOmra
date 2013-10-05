@@ -1,13 +1,15 @@
 ".container": {
 	layout: 'vertical',
-	width: 250,
+	//width: 300,
 	right: 0,
+	// top : 0 ,
+	// bottom : 0 ,
 	backgroundImage : '/images/menu_background.png'
 }
 
 ".img": {
 	width : Ti.UI.FILL,
-	height : "63dp",
+	height : "11%",
 	backgroundImage : '/images/item.png',
 	backgroundSelectedImage : '/images/select_item.png',
 	right : 0
@@ -25,10 +27,18 @@
       	 fontFamily: Alloy.Globals.customFont
 		     }
 	}
-
+".title[formFactor=tablet]":{
+	right : 55,
+	color : "white",
+		font:{
+		 fontSize:44,
+      	 fontFamily: Alloy.Globals.customFont
+		     }
+	
+}
 "#hajHead": {
 	width : Ti.UI.FILL,
-	height : Ti.UI.SIZE,
+	height : "10%",
 	image : '/images/header_hajj.png',
 	backgroundColor: 'black',
 	
@@ -46,7 +56,7 @@
 
 "#omraHead": {
 	width : Ti.UI.FILL,
-	height : Ti.UI.SIZE,
+	height : "10%",
 	image : '/images/header_omra.png',
 	backgroundColor: 'black',
 	
@@ -64,7 +74,7 @@
 
 "#maps": {
 	width : Ti.UI.FILL,
-	height : Ti.UI.SIZE,
+	height : "10%",
 	image : '/images/header_maps.png',
 	backgroundColor: 'black',
 	
@@ -81,14 +91,14 @@
 }
 "#azkar": {
 	width : Ti.UI.FILL,
-	height : Ti.UI.SIZE,
+	height : "10%",
 	image : '/images/header_azkar.png',
 	backgroundColor: 'black',
 	}
 	
 "#about": {
 	width : Ti.UI.FILL,
-	height : Ti.UI.SIZE,
+	height : "10%",
 	image : '/images/header_about.png',
 	backgroundColor: 'black',
 	}

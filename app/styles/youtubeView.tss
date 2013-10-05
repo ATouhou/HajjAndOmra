@@ -35,21 +35,29 @@
 	left: 5,
 	textAlign: 'right'
 }
-// "#descLbl": {
-	// color: 'black',
-	// font:{
-		 // fontSize:11,
-      	 // fontFamily: Alloy.Globals.customFont
-	// },
-	// top : 35,
-	// right: 115,
-	// left: 5,
-	// textAlign: 'right'
-// }
+
+"#lblTitle[formFactor=tablet]": {
+	color: 'black',
+	font:{
+		 fontSize:40,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	top : 10,
+	right: 270,
+	left: 5,
+	textAlign: 'right'
+}
+
 '#imgThumb':{
 	right:5,
 	width: 120,
 	height: 100,
+	
+}
+'#imgThumb[formFactor=tablet]':{
+	right:5,
+	width: 250,
+	height: 200,
 	
 }
 '.itmT':{
@@ -58,4 +66,6 @@
 "ListItem": {
 	height : 130
 }
-
+"ListItem[formFactor=tablet]": {
+	height : 260
+}

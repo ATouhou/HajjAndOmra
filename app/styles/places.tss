@@ -7,11 +7,17 @@
 
 "#header":{
 	title:{
+		
 		text:'اماكن هامة' ,
+		
 	},
 	rightNavButton:{
 		title:'',
+		backgroundImage: '/images/btn_menu_icon_normal.png',
+		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
 		visible:true,
+		width:27,
+		height:19,
 	},
 	backgroundColor:'white'
 }
@@ -45,7 +51,33 @@
 	textAlign:'right'
 	
 }
+"#row[formFactor=tablet]": {
+	height : 100
+}
+"#main[formFactor=tablet]": {
+	
+	color: 'white',
+	font:{
+		 fontSize:40,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:15,
+	left: 5,
+	textAlign:'right'
+}
 
+"#sub[formFactor=tablet]": {
+	
+	color: 'white',
+	font:{
+		 fontSize:35,
+      	 fontFamily: Alloy.Globals.customFont
+	},
+	right:15,
+	left: 5,
+	textAlign:'right'
+
+}
 '#vert':{
 	layout:'vertical',
 	height:Ti.UI.SIZE,
