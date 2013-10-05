@@ -8,7 +8,7 @@ exports.definition = {
 		},
 		adapter: {
 			type: "sql",
-			collection_name: "MyPlaces",
+			collection_name: "myplaces",
 			"db_file": "/db.db3",
 			idAttribute: 'id'
 		}
