@@ -26,10 +26,8 @@
 }
 "#lblTitle": {
 	color: 'black',
-	font:{
-		 fontSize:18,
-      	 fontFamily: Alloy.Globals.customFont
-	},
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	top : 10,
 	right: 130,
 	left: 5,
@@ -38,10 +36,8 @@
 
 "#lblTitle[formFactor=tablet]": {
 	color: 'black',
-	font:{
-		 fontSize:40,
-      	 fontFamily: Alloy.Globals.customFont
-	},
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	top : 10,
 	right: 270,
 	left: 5,

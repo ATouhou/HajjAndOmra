@@ -8,13 +8,13 @@ if (video) {
 		$.header.title.text = video;
 		$.show.setUrl(video);
 	} else {
-		var x = video.substring(6, 21);
+		var x = video.substring(7, 21);
 		$.header.title.text = x;
 		$.show.setUrl(video);
 	}
 } else {
 	$.header.title.text = image;
-	$.show.setHtml('<html><body> <img src=image /> </body></html>');
+	$.show.setHtml('<html><body> <img src="' + image + '" /> </body></html>');
 }
 
 $.show.addEventListener('load', function(e) {

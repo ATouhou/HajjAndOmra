@@ -34,10 +34,8 @@
 	width:Ti.UI.FILL,
 	height:'7.7%',
 	title:{
-		font:{
-			fontSize:40,
-			fontFamily: Alloy.Globals.customFont,
-		},
+		font : Alloy.Globals.paragraph,
+		fontFamily: Alloy.Globals.customFont,
 		text:'عن التطبيق' ,
 		color:'black',
 	},
@@ -65,19 +63,15 @@
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
 	color:'white',
-	font:{
-		fontSize:28,
-		fontWeight:'bold',
-	}
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 }
 
 '#ver':{
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
 	color:'white',
-	font:{
-		fontSize:20,
-	}
+	font : Alloy.Globals.paragraph,
 
 }
 
@@ -86,9 +80,7 @@
 	width:Ti.UI.SIZE,
 	text:'http://www.hashapps.com',
 	color:'white',
-	font:{
-		fontSize:20,
-	}
+	font : Alloy.Globals.paragraph,
 
 }
 
@@ -104,19 +96,15 @@
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
 	color:'white',
-	font:{
-		fontSize:38,
-		fontWeight:'bold',
+	font : Alloy.Globals.paragraph,
+	fontWeight:'bold',
 	}
-}
 
 '#ver[formFactor=tablet]':{
 	height:Ti.UI.SIZE,
 	width:Ti.UI.SIZE,
 	color:'white',
-	font:{
-		fontSize:30,
-	}
+	font : Alloy.Globals.paragraph,
 
 }
 
@@ -125,9 +113,7 @@
 	width:Ti.UI.SIZE,
 	text:'http://www.hashapps.com',
 	color:'white',
-	font:{
-		fontSize:30,
-	}
+	font : Alloy.Globals.paragraph,
 }
 
 '#icons':{

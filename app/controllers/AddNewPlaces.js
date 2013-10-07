@@ -17,7 +17,7 @@ function checkGPS(argument) {
 			open : 0,
 			cancel : 1 ,
 			buttonNames : ['تفعيل تحديد المكان', 'الغاء'],
-			message : 'تحديد الماكن غير مفغل , هل ترغب فى تفعيله ؟',
+			message : 'تحديد الماكن غير مفعل , هل ترغب فى تفعيله ؟',
 			title : 'تحذير'
 		});
 		dialog.addEventListener('click', function(e) {

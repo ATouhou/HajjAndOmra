@@ -58,17 +58,13 @@
 }
  
 '.h1':{
-    font:{
-        fontSize: 20,
-        fontWeight: 'bold'
-    }
+    font : Alloy.Globals.paragraph,
+    fontWeight: 'bold'
 }
  
 '.h2':{
-    font:{
-        fontSize: 18,
-        fontWeight: 'bold'
-    }
+    font : Alloy.Globals.paragraph,
+	fontWeight: 'bold'
 }
  
 '.pdLeft10':{

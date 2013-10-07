@@ -12,3 +12,30 @@
 
 var customFont = 'FrutigerLTArabic-55Roman';
 Alloy.Globals.customFont;
+
+if(Alloy.isTablet){
+	Alloy.Globals.paragraph = {
+		fontSize: 30
+	};
+	Alloy.Globals.h1 = {
+		fontSize: 40
+	};
+}else{
+	if (Ti.Platform.displayCaps.platformHeight < 480 ){
+		Alloy.Globals.paragraph = {
+			fontSize: 14
+		};
+		Alloy.Globals.h1 = {
+			fontSize: 16
+		};
+	}else{
+		Alloy.Globals.paragraph = {
+			fontSize: 18
+		};
+		Alloy.Globals.h1 = {
+			fontSize: 20
+		};
+	}
+}
+
+
