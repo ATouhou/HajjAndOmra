@@ -7,17 +7,11 @@
 
 "#header":{
 	title:{
-		
-		text:'اماكن هامة' ,
-		
+		text:'اماكن هامة' ,	
 	},
 	rightNavButton:{
 		title:'',
-		backgroundImage: '/images/btn_menu_icon_normal.png',
-		backgroundSelectedImage: '/images/btn_menu_icon_pressed.png',
 		visible:true,
-		width:27,
-		height:19,
 	},
 	backgroundColor:'white'
 }

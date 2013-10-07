@@ -10,7 +10,7 @@
 
 '#lblTitle[formFactor=tablet]':{
 	font: {
-		fontSize: 40,
+		fontSize: 35,
 		fontFamily: Alloy.Globals.customFont
 	},
 	color:"black",
