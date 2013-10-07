@@ -8,7 +8,7 @@ if (video) {
 		$.header.title.text = video;
 		$.show.setUrl(video);
 	} else {
-		var x = video.substring(6, 21);
+		var x = video.substring(7, 21);
 		$.header.title.text = x;
 		$.show.setUrl(video);
 	}
