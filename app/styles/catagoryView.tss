@@ -87,7 +87,7 @@
 	 bottom:10
 }
 "#row[formFactor=tablet]": {
-	height : 65
+	height : 75
 }
 "#lblTitle[formFactor=tablet]": {
 	

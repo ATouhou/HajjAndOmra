@@ -1,18 +1,11 @@
 "#lblTitle": {
-	font: {
-		fontSize: 20,
-		fontFamily: Alloy.Globals.customFont
-	},
+	font: Alloy.Globals.h1,
 	color:"black",
 	width: '60%',
 	textAlign: 'center'
 }
 
 '#lblTitle[formFactor=tablet]':{
-	font: {
-		fontSize: 35,
-		fontFamily: Alloy.Globals.customFont
-	},
 	color:"black",
 	width: '60%',
 	textAlign: 'center'

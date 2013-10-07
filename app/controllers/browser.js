@@ -14,7 +14,7 @@ if (video) {
 	}
 } else {
 	$.header.title.text = image;
-	$.show.setHtml('<html><body> <img src=image /> </body></html>');
+	$.show.setHtml('<html><body> <img src="' + image + '" /> </body></html>');
 }
 
 $.show.addEventListener('load', function(e) {

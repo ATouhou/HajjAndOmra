@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.hashapps.HajjAndOmra</id>
-    <property name="ti.ui.defaultunit" type="string">dp</property>
     <name>HajjAndOmra</name>
     <version>1.0</version>
     <publisher>shaban</publisher>
