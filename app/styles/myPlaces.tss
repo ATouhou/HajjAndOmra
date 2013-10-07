@@ -29,10 +29,8 @@
 "#newPlace": {
 	left : 10,
 	color : "black",
-	font: {
-		fontSize:20,
-		fontFamily: Alloy.Globals.customFont,
-	},
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	
 }
 "#myListPlaces":{
@@ -46,20 +44,16 @@
 
 "#main": {
 	color: 'white',
-	font:{
-		 fontSize:20,
-      	 fontFamily: Alloy.Globals.customFont
-	},
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	right:0,
 	textAlign:'right'
 },
 
 '#sub':{
 	color: 'white',
-	font:{
-		 fontSize:18,
-      	 fontFamily: Alloy.Globals.customFont
-	},
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	right:0,
 	textAlign:'right'
 	

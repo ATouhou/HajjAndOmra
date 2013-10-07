@@ -22,18 +22,14 @@
 ".title":{
 	right : 55,
 	color : "white",
-		font:{
-		 fontSize:22,
-      	 fontFamily: Alloy.Globals.customFont
-		     }
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	}
 ".title[formFactor=tablet]":{
 	right : 55,
 	color : "white",
-		font:{
-		 fontSize:44,
-      	 fontFamily: Alloy.Globals.customFont
-		     }
+	font : Alloy.Globals.paragraph,
+	fontFamily: Alloy.Globals.customFont,
 	
 }
 "#hajHead": {
